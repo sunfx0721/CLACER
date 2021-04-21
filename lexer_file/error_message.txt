@@ -1,0 +1,6 @@
+C:\Users\Ïæ\Desktop\result\CLACER/lexer_file/test.c: In function 'main':
+C:\Users\Ïæ\Desktop\result\CLACER/lexer_file/test.c:8:14: error: 'eof' undeclared (first use in this function); did you mean 'feof'?
+    8 |  for (i=0;i!=eof;i++)
+      |              ^~~
+      |              feof
+C:\Users\Ïæ\Desktop\result\CLACER/lexer_file/test.c:8:14: note: each undeclared identifier is reported only once for each function it appears in

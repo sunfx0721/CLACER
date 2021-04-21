@@ -1,0 +1,1 @@
+{'opWrongUsage': 0, 'BoundNotMatch': 1, 'BoundLost': 2, 'IDNoDef': 3, 'APIcallWrongUsage': 4, 'BoundRedundant': 5, 'NotInclude': 6, 'opLost': 7, 'IDWrongUsage': 8, 'KeyWordWrongUsage': 9, 'TypeWrongUsage': 10, 'opDataLost': 11, 'BoundWrongUsage': 12}

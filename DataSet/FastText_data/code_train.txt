@@ -1,0 +1,2338 @@
+IdNoDef	{ for ( ID = ID + CONST ; ID < ID ; ++ ID ) ID  undeclared
+IdNoDef	if ( ID == CONST ) ID  undeclared
+BoundLost	if ( ID [ ID ] == ID - CONST ) { printf ( STRING ) expected  ;  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+NotInclude	( { expected expression before  {  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  return
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+NotInclude	ID = CONST ;                       . expected expression before  .  token
+BoundLost	ID = CONST expected  ;  before  }  token
+IdNoDef	if ( ID == ID ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+NotInclude	scanf ( STRING , & ID [ ID ] ) ; . expected expression before  .  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ID [ ID ] + ID [ ID ] == ID ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	{ if ( ( ID != ID ) && ( ID [ ID ] + ID [ ID ] = ID ) ) ID  undeclared
+OPDataLost	for ( ID = CONST ; ID < ; ID ++ ) expected expression before  ;  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( int ID = ID ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	else ( ID % CONST != CONST ) expected  ;  before  printf
+IdNoDef	for ( ID = CONST , ID == CONST ; ID < ID ; ID ++ , ID ++ ) ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  scanf
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID + CONST ; ID  undeclared
+IdNoDef	printf ( STRING , & ID ) ; ID  undeclared
+BoundLost	ID [ ID + CONST ] = ID expected  ;  before  }  token
+BoundLost	{ scanf ( STRING , ID [ ID ] ) expected  ;  before  ID
+BoundLost	{   scanf ( STRING , & ID [ ID ] ) expected  ;  before  ID
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID ++ ; ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( int ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+APIcallWrongUsage	scanf ( STRING , & ID . & ID ) ; expected identifier before  &  token
+IdNoDef	if ( ID [ ID ] > ID [ CONST ] ) ID  undeclared
+IdNoDef	for ( ID = CONST , ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = CONST ; ID  undeclared
+BoundLost	printf ( ID [ CONST ] ) expected  ;  before  return
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+BoundLost	if ( ID > ID ) { ID = ID } expected  ;  before  }  token
+BoundLost	ID = CONST expected  ;  before  }  token
+BoundLost	return ID expected  ;  before  }  token
+BoundLost	printf ( STRING , ID ( CONST ) ) expected  ;  before  for
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ID [ ID ] < ID ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ ) ID  undeclared
+IdNoDef	else if ( ID > ID ) ID  undeclared
+IdNoDef	ID [ ID ] = CONST ; ID  undeclared
+OPDataLost	for ( = CONST ; ID < ID ; ID ++ ) expected expression before  =  token
+IdNoDef	ID = CONST ; ID  undeclared
+BoundRedundant	return CONST ; } expected identifier or  (  before  }  token
+BoundRedundant	if ( ID == CONST ; ) expected  )  before  ;  token
+IdNoDef	if ( ID [ ID ] == ID ( ID ) ) { ID  undeclared
+BoundRedundant	if ( ID % CONST == CONST || ID < CONST ; ) expected  )  before  ;  token
+IdNoDef	ID = ID ( ID ) - CONST ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID >= ID ( ID ) - CONST ; ID ++ ) ID  undeclared
+IdNoDef	if ( ID == ( pow ( CONST , ID ) - CONST ) ) ID  undeclared
+IdNoDef	int ID = ID ( ID [ ID ] [ CONST ] , ID ) ; ID  undeclared
+IdNoDef	ID ++ ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundLost	ID *= CONST expected  ;  before  }  token
+IdNoDef	{    ID = ID ( ID ) - CONST ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+BoundLost	ID [ ID ] = ID expected  ;  before  ID
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID + CONST ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+APIcallWrongUsage	ID = strlen ID + CONST ; expected  ;  before  ID
+BoundLost	ID = ID expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	ID ++ expected  ;  before  }  token
+BoundLost	ID += CONST expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	break expected  ;  before  }  token
+APIcallWrongUsage	for ( int ID = CONST ; ID < ID ; ID ++ )  scanf ( STRING ; & ID [ ID ] ) ; expected  )  before  ;  token
+BoundWrongUsage	for ( ID = CONST ; ID < ID , ID ++ ) { expected  ;  before  )  token
+NotInclude	int ID ( ID [ ID ] ) ; expected declaration specifiers or  ...  before  ID
+IdNoDef	ID [ CONST ] ; ID  undeclared
+IdNoDef	ID = CONST + ID [ ID ] ; ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundRedundant	} expected identifier or  (  before  }  token
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+BoundLost	printf ( STRING , ID ( ID , ID ) ) expected  ;  before  return
+BoundLost	else ( ID >= ID ) expected  ;  before  ID
+BoundNotMatch	return CONST ; } expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundRedundant	} expected identifier or  (  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundRedundant	printf ( STRING ) ; ) expected statement before  )  token
+KeyWordWrongUsage	else if { if ( ( ID * ID + ID * ID < ID * ID ) || ( ID * ID + ID * ID < ID * ID ) || ( ID * ID + ID * ID < ID * ID ) ) expected  (  before  {  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	else if ( ( ID * ID ) > ( ID * ID + ID * ID ) ) expected expression before  else
+BoundRedundant	if ( ID >= ID && ; ID + ID < ID ) expected expression before  ;  token
+OPDataLost	else if ( ID == ID & ) expected expression before  )  token
+KeyWordWrongUsage	if ( ID + ID < ID ) && ( ID + ID < ID ) && ( ID + ID < ID ) expected identifier before  (  token
+BoundLost	else ( ( ID * ID + ID * ID ) == ID * ID ) expected  ;  before  printf
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID [ ID ] = CONST ; ID  undeclared
+IdNoDef	ID = ID + CONST ; ID  undeclared
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  ID
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+OPDataLost	for ( ID = ; ID < ID ; ID ++ ) { expected expression before  ;  token
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	for ( int ID = ID + CONST ; ID < ID ) expected  ;  before  )  token
+OPDataLost	for ( int ID = CONST ; ID < ; ID ++ ) expected expression before  ;  token
+BoundLost	ID ++ expected  ;  before  }  token
+BoundRedundant	int ID , ID , ID [ CONST ] , ID , ID = CONST , ID = CONST , ID [ CONST ] , ; expected identifier or  (  before  ;  token
+OPDataLost	for ( ID = ; ID < ID ; ID ++ ) expected expression before  ;  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  for
+APIcallWrongUsage	printf ( STRING ID [ ID ] ) ; expected  )  before  ID
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+APIcallWrongUsage	printf ( STRING ID [ ID ] ) ; expected  )  before  ID
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	else printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+BoundLost	ID [ ID ] = CONST expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ( ID [ ID ] > ID [ ID ] ) && ( ID < ID ) ) ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST , ID = CONST ; ID < ID , ID < ID ; ID ++ , ID ++ ) ID  undeclared
+OPDataLost	scanf ( STRING , & [ ID ] ) ; expected expression before  [  token
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	ID ++ expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundLost	ID [ ID ] ++ expected  ;  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+BoundLost	ID = CONST expected  ;  before  {  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundLost	ID ++ expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+BoundLost	ID ++ ; ID ++ expected  ;  before  }  token
+BoundLost	scanf ( STRING , ID ) expected  ;  before  for
+BoundLost	printf ( STRING , ID ) expected  ;  before  for
+OPWrongUsage	for ( ID = ID + CONST ; ID = < ID ; ID ++ ) { expected expression before  <  token
+BoundWrongUsage	for ( ID = CONST ; ID < CONST , ID ++ ) expected  ;  before  )  token
+IdNoDef	if ( ID == ID ) ID  undeclared
+IdNoDef	printf ( STRING , ID [ ID ] , ID [ ID ] ) ; ID  undeclared
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+OPDataLost	for ( int ID = CONST ; ID < ID ; ++ ) expected expression before  )  token
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	if ( ID < ID && ID [ ID ] > ID [ ID ] ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	int ID , ID ; ID = CONST ; ID  undeclared
+OPWrongUsage	for ( ID = ID ; ID % ID != = CONST ; ID ++ ) continue ; expected expression before  =  token
+IdNoDef	ID = CONST ; ID  undeclared
+BoundLost	ID = ID + ID ; break } expected  ;  before  }  token
+BoundLost	ID = ID / CONST + ID / CONST expected  ;  before  return
+APIcallWrongUsage	printf ( STRING ID ) ; expected  )  before  ID
+IdNoDef	ID = ID / ID ; ID  undeclared
+BoundLost	int ID = ID expected  ,  or  ;  before  ID
+IdNoDef	if ( ID % ID == CONST ) { ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ( ID % ID ) != CONST ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID - CONST ) expected  ;  before  return
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID % ID != CONST ; ID ++ ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= CONST ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+KeyWordWrongUsage	for ( ID = ID ; ID != CONST ) expected  ;  before  )  token
+NotInclude	printf ( return CONST ) ; expected expression before  return
+IdNoDef	for ( ID = ID + CONST ; ; ID ++ ) ID  undeclared
+OPWrongUsage	} * / expected expression before  ID  token
+IdNoDef	for ( ID = CONST ; ID <= CONST ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  for
+IdNoDef	ID = CONST ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID [ CONST ] + ID [ ID ] ; ID  undeclared
+KeyWordWrongUsage	for ( ID = CONST ; ID ++ ) { expected  ;  before  )  token
+BoundWrongUsage	for ( ID = ID + CONST ; CONST > CONST : ID ++ ) { expected  ;  before  :  token
+IdNoDef	for ( ID = ID ; ID < CONST ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	for ( int ID = ID [ ID ] ; ID < ID ) expected  ;  before  )  token
+IdNoDef	while ( ID [ ID ] > ID [ ID ] ) ID  undeclared
+BoundLost	ID [ ID ] = ID [ ID ] expected  ;  before  printf
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  }  token
+BoundLost	printf ( STRING , ID [ ID ] , ID [ ID ] ) expected  ;  before  }  token
+NotInclude	include < stdio.h > expected  = , ',',  ; ,  asm  or  __attribute__  before  <  token
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	printf expected  ;  before  printf
+IdNoDef	ID [ ID ] = ID [ ID [ ID [ ID ] ] ] ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	ID [ ID [ ID ] ] = ID [ ID ] expected  ;  before  }  token
+NotInclude	int main expected  = , ',',  ; ,  asm  or  __attribute__  before  {  token
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+KeyWordWrongUsage	for expected  (  before  printf
+BoundLost	ID [ ID ] = ID [ ID ] expected  ;  before  ID
+IdNoDef	scanf ( STRING , ID ) ; ID  undeclared
+IdNoDef	ID [ ID ] = ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) { ID  undeclared
+BoundLost	ID ++ expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST , ID = ID ; ID <= ID ; ID ++ , ID -- ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ( ID + CONST ) / CONST ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  for
+BoundLost	ID ( ( CONST * ID + CONST ) / CONST , ID % ID ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected  }  before  else
+BoundNotMatch	printf ( STRING , ID % CONST ) ; expected  }  before  else
+BoundLost	printf ( STRING , ID % CONST ) expected  ;  before  }  token
+NotInclude	} expected identifier or  (  before  return
+KeyWordWrongUsage	for ( ID = CONST ; ( ID = ID ) ; ID < ID ; ( ID <= ID ) ; ID ++ ; ( ID = ID + ( ID - ID ) / ID ) ) { expected  )  before  ;  token
+BoundLost	ID = ID + ( ( CONST * ID ) - ( CONST * ID * ID * ID ) ) * ( ID - ID ) / ID expected  ;  before  }  token
+IdNoDef	ID = ID + ID * ( ID - ID ) / ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ( ID - CONST ) ; ID ++ ) ID  undeclared
+TypeWrongUsage	double ID = float ID * ID ; expected expression before  float
+IdNoDef	ID = ( ID ( ID + ID * ID ) - ID ( ID + ID ) ) * ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID - CONST ; ID ++ ) ID  undeclared
+IdWrongUsage	double ID ( ( double ID ( double ID ) ) - ( double ID ( double ID ) ) ) { expected declaration specifiers or  ...  before  (  token
+TypeWrongUsage	ID = ( ( ID - ID ) / ( double ( ID ) ) ) ; expected  )  before  ID
+APIcallWrongUsage	ID = ( abs ( ID - ID ) * ID ) + ID ; printf ( STRING ID ) ; expected  )  before  ID
+BoundLost	else ( ID ( ID ) > ID ( ID ) ) expected  ;  before  {  token
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) { ID  undeclared
+OPWrongUsage	ID = ID + | ( CONST * ( ID [ ID ] ) ) - ( CONST * ( ID [ ID ] ) * ( ID [ ID ] ) * ( ID [ ID ] ) ) | ; expected expression before  |  token
+BoundRedundant	int ID , ; expected identifier or  (  before  ;  token
+BoundRedundant	for ( ID = ( ID * ID ) / ( ID - ID ) ; ID = ID ; ID ++ ; ) { expected  )  before  ;  token
+IdNoDef	ID = ( CONST * ID * ID * ID ) - ( ID * ID ) - ( CONST * ID ) ; ID  undeclared
+BoundLost	ID = ID + ID expected  ;  before  }  token
+BoundLost	ID = ( ID - ID ) / ID expected  ;  before  for
+BoundRedundant	# include < math.h > expected identifier or  (  before  }  token
+KeyWordWrongUsage	ID ( ID < CONST ) ID = - ID ; expected  ;  before  ID
+BoundLost	const double ID = CONST expected  ,  or  ;  before  double
+OPWrongUsage	ID = [ ID ( ID ( ID + ID * ID ) - ID ( ID + ID * ID ) ) ] * ID ; expected expression before  [  token
+BoundWrongUsage	for ( ID = ID ; ID <= ID - CONST , ID ++ ) expected  ;  before  )  token
+BoundLost	const double ID = CONST expected  ,  or  ;  before  double
+IdNoDef	ID = ID + ID * ID ; ID  undeclared
+IdNoDef	return ( ( CONST * ID ) - pow ( ID , CONST ) ) ; ID  undeclared
+IdNoDef	ID = - CONST * ID * ID * ID ; ID  undeclared
+IdWrongUsage	float ID ( ID ) , ID ( ID ) ; expected identifier or  (  before  if
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	{ ID [ ID ] = ID + ( ID / ID ) } expected  ;  before  }  token
+BoundLost	ID = ID + ( abs ( CONST * pow ( ID , CONST ) - CONST * ID ) * ( ID - ID ) / ID ) } expected  ;  before  }  token
+IdNoDef	ID = ( ID - ID ) / ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+TypeWrongUsage	double ID - ID / ID ; expected  = , ',',  ; ,  asm  or  __attribute__  before  -  token
+OPDataLost	ID = ( - ) * ( ID ) ; expected expression before  )  token
+IdNoDef	return CONST * ID * ID - ID * ID - CONST * ID ; ID  undeclared
+BoundLost	else ( ID < CONST ) expected  ;  before  return
+IdNoDef	scanf ( STRING , & ID , & ID , & ID ) ; ID  undeclared
+BoundLost	ID [ ID ] = ID + ID * ID expected  ;  before  }  token
+IdNoDef	ID = ID + ( ID - ID ) / ID ; ID  undeclared
+BoundLost	ID >= - CONST CHARST ID <= CONST ; expected  ;  before  &
+BoundLost	ID = ID - CONST expected  ;  before  if
+BoundLost	ID = ID + ID expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+OPDataLost	ID = ID ( ID [ ] , ID ) ; expected expression before  ]  token
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	else if { expected  (  before  {  token
+BoundLost	printf ( STRING ) expected  ;  before  else
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID [ CONST ] ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	ID = CONST expected  ;  before  for
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID = ID + CONST ) ID  undeclared
+KeyWordWrongUsage	else ( ID [ ID ] < ID [ ID - CONST ] && ID [ ID ] < ID [ ID + CONST ] ) { expected  ;  before  {  token
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  else
+BoundWrongUsage	for ( ID = CONST ; ID < ID , ID ++ ) { expected  ;  before  )  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  ID
+IdNoDef	if ( ID >= ID ) ID  undeclared
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+OPDataLost	for ( ID = ; ID < ID ; ID ++ ) expected expression before  ;  token
+OPWrongUsage	for ( ID = ID ; ID = < ID - CONST ; ID ++ ) expected expression before  <  token
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundNotMatch	ID ++ ; expected  }  before  else
+BoundLost	printf ( STRING ) expected  ;  before  printf
+IdNoDef	for ( int ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	if ( ID [ ID ] = - ID ) ID  undeclared
+OPWrongUsage	if ( ID [ ID ] = > ID [ ID ] ) { expected expression before  >  token
+IdNoDef	ID [ CONST ] = CONST ; ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+OPDataLost	printf ( STRING , ID [ ] ) ; expected expression before  ]  token
+IdNoDef	ID = CONST ; ID  undeclared
+KeyWordWrongUsage	ID > ID ? return ID : return ID ; expected expression before  return
+OPDataLost	return ID ( ID [ ] , ID - CONST ) ; expected expression before  ]  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	while ( ID < ID ) ID  undeclared
+OPDataLost	ID ( ID [ ] , ID - CONST ) ; expected expression before  ]  token
+OPWrongUsage	int ID [ int ID ] ; expected expression before  int
+IdNoDef	ID = ID - CONST ; ID  undeclared
+OPDataLost	scanf ( STRING , ID [ ] ) ; expected expression before  ]  token
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ID != CHART ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdWrongUsage	void ID ( ID , CONST ) ; expected  )  before numeric constant
+KeyWordWrongUsage	if ( ID == ID - CONST ) expected expression before  else
+BoundLost	printf ( STRING , ID [ ID - CONST ] ) expected  ;  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	ID ( ID , ID + CONST , ID - CONST ) ; ID  undeclared
+IdNoDef	printf ( STRING , ID [ ID ] ) ; ID  undeclared
+IdNoDef	ID = ID ( ID , CONST , ID - CONST ) ; ID  undeclared
+IdWrongUsage	ID ( int ID ) ; expected expression before  int
+IdNoDef	printf ( STRING , ID [ ID ] ) ; ID  undeclared
+OPDataLost	ID ( ID , ID [ ] , ID - CONST ) ; expected expression before  ]  token
+BoundLost	ID ( STRING , ID [ ID ] ) expected  ;  before  if
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundWrongUsage	for ( ID = CONST , ID <= ID / CONST ; ID ++ ) expected  ;  before  )  token
+BoundWrongUsage	for ( ID = CONST ; ID < ID , ID ++ ) { expected  ;  before  )  token
+IdNoDef	int ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  return
+BoundLost	printf ( STRING ) expected  ;  before  return
+BoundLost	ID = ID + ID expected  ;  before  else
+IdNoDef	ID = ID + ID ; ID  undeclared
+KeyWordWrongUsage	else ( ) expected expression before  )  token
+KeyWordWrongUsage	if else ( ID == CONST ) { expected  (  before  else
+IdNoDef	printf ( ID ) ; ID  undeclared
+BoundLost	int ID = CONST expected  ,  or  ;  before  scanf
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundRedundant	int ID ( int ID ) ; expected identifier or  (  before  {  token
+BoundLost	int ID = CONST expected  ,  or  ;  before  scanf
+IdNoDef	for ( ID = CONST ; ID < ( ID / CONST ) + CONST ; ID = ID + CONST ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+BoundLost	ID ++ expected  ;  before  if
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ID == ID ) ID  undeclared
+IdNoDef	ID = ID + ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ID == ID ) ID  undeclared
+BoundLost	ID = CONST expected  ;  before  else
+BoundLost	int ID = CONST expected  ,  or  ;  before  scanf
+BoundLost	printf ( STRING ) expected  ;  before  return
+BoundLost	int ID , ID ; int ID = CONST expected  ,  or  ;  before  scanf
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundLost	{ printf ( STRING ) } expected  ;  before  }  token
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  return
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	int ID , ID , ID , ID = ID , ID = CONST ; ID  undeclared
+IdNoDef	int ID [ ID ] ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+BoundLost	ID = ID ( ID ) expected  ;  before  printf
+IdNoDef	if ( ID [ ID ] < ID && ID [ ID ] > ID ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	if ( ID [ ID ] > ID && ID [ ID ] <= ID ) ID  undeclared
+KeyWordWrongUsage	int ( ID = CONST ; ID < ID ; ID ++ ) scanf ( STRING , & ID [ ID ] ) ; expected  )  before  =  token
+IdNoDef	if ( ID [ ID ] > ID && ID [ ID ] < ID ) ID  undeclared
+IdNoDef	ID [ ID ] = CONST ; ID  undeclared
+BoundRedundant	} expected identifier or  (  before  }  token
+KeyWordWrongUsage	if ( ID ) expected expression before  }  token
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	if ( ( ID [ ID ] > ID ) && ( ID [ ID ] < ID ) ) ID  undeclared
+IdNoDef	if ( ID < ID [ ID ] && ID < ID ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID - CONST ; ID ++ ) ID  undeclared
+IdNoDef	int ID = ID [ CONST ] ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID , & ID ) ; ID  undeclared
+IdNoDef	ID = ID ; } ID  undeclared
+IdNoDef	if ( ID < ID [ ID ] && ID [ ID ] != ID ) ID  undeclared
+BoundLost	ID = ID ( CONST ) expected  ;  before  printf
+IdNoDef	for ( ID = ID - CONST ; ID > CONST ; ID -- ) ID  undeclared
+BoundLost	ID = ID [ CONST ] expected  ;  before  if
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ID != CONST ) ID  undeclared
+IdNoDef	if ( ID == ID + CONST && ID == ID + CONST ) printf ( STRING ) ; ID  undeclared
+IdNoDef	if ( ID != CONST ) ID  undeclared
+KeyWordWrongUsage	continue ; expected  }  before  else
+KeyWordWrongUsage	else if ( ID = ID ; ID = ID ) expected  )  before  ;  token
+KeyWordWrongUsage	else if expected  (  before  printf
+BoundWrongUsage	for ( ID = CONST , ID <= ID ; ID ++ ) expected  ;  before  )  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	else ( ( ID != ID ) && ( ID != CONST ) ) expected  ;  before  {  token
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+KeyWordWrongUsage	if } expected  (  before  }  token
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  if
+BoundRedundant	int ID , ID , ID , ; expected identifier or  (  before  ;  token
+IdNoDef	if ( ID == CONST ) ID  undeclared
+BoundRedundant	printf ( STRING , ID , ID ) ; ) expected statement before  )  token
+OPWrongUsage	if ( ID != = ID ) expected expression before  =  token
+BoundLost	ID = ID expected  ;  before  if
+BoundLost	ID ++ expected  ;  before  }  token
+KeyWordWrongUsage	if { expected  (  before  {  token
+BoundLost	ID ++ expected  ;  before  if
+IdNoDef	{ ID = CONST ; } ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+KeyWordWrongUsage	for ( ID = CONST ; ID <= ID ; ID = ID + CONST ) expected expression before  }  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	scanf ( STRING , ID ) ; ID  undeclared
+BoundLost	ID = CONST expected  ;  before  break
+IdNoDef	if ( ID [ ID ] > ID [ CONST ] || ID [ ID - CONST ] > ID [ ID - CONST ] ) ID  undeclared
+BoundLost	scanf ( STRING , & ID ) ID ; expected  ;  before  ID
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	scanf ( STRING , ID ) ; ID  undeclared
+IdNoDef	if ( ( ID [ ID ] > ID [ ID - CONST ] ) && ( ID [ ID [ ID ] ] > ID [ ID + CONST ] ) )  { ID  undeclared
+IdNoDef	ID != CONST ; ID  undeclared
+BoundLost	ID ++ expected  ;  before  }  token
+OPWrongUsage	if ( ID [ ID ] = > ID [ ID - CONST ] && ID [ ID ] >= ID [ ID + CONST ] ) expected expression before  >  token
+BoundLost	printf ( STRING ) expected  ;  before  return
+IdNoDef	int ID , ID , ID = CONST ; ID = CONST ; ID  undeclared
+OPWrongUsage	if ( ID [ ID ] = > ID [ ID - CONST ] && ID [ ID ] = > ID [ ID + CONST ] ) expected expression before  >  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundNotMatch	else if ( ( ID [ ID ] > ID [ ID + CONST ] ) && ( ID [ ID ] ) > ID [ ID - CONST ] ) ) expected statement before  )  token
+BoundLost	ID expected  ;  before  return
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	ID = CONST expected  ;  before  }  token
+BoundNotMatch	printf ( STRING ) ; expected  }  before  else
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+KeyWordWrongUsage	if ( ID [ ID ] > ID [ ID - CONST ] ) && ( ID [ ID ] > ID [ ID + CONST ] ) { expected identifier before  (  token
+OPWrongUsage	if ( ID [ CONST ] = > ID [ CONST ] || ID [ ID - CONST ] = > ID [ ID ] ) expected expression before  >  token
+BoundLost	{ printf ( STRING ) expected  ;  before  ID
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ID == ID ) { ID  undeclared
+IdNoDef	if ( ID == ( ID * ID ) ) ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+IdNoDef	ID = ID + ( ( ID == ID && ID == CONST ) || ( ID != ID && ID == CONST ) ) ; ID  undeclared
+NotInclude	int main expected  = , ',',  ; ,  asm  or  __attribute__  before  {  token
+IdNoDef	if ( ID = ID && ID != CONST ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundRedundant	int ID , ID , ID , ID , ; expected identifier or  (  before  ;  token
+BoundLost	ID = CONST expected  ;  before  }  token
+OPWrongUsage	for ( ID = CONST ; ID <= ID ; ID + ) { expected expression before  )  token
+IdNoDef	{ scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	ID = ID + ID ; ID  undeclared
+KeyWordWrongUsage	if ( ( ID = ID && ID [ ID ] [ ID ] == CONST ) && ( ID != ID && ID [ ID ] [ ID ] == CONST ) ) expected expression before  }  token
+KeyWordWrongUsage	if ( ( ID == CONST ) && ( ID == ID ) ) && ( ( ID == CONST ) && ( ID != ID ) ) expected identifier before  (  token
+BoundLost	else ( ID == CONST ) expected  ;  before  ID
+KeyWordWrongUsage	if ( ( ( ID == ID ) && ( ID = CONST ) ) && ( ( ID != ID ) && ( ID = CONST ) ) ) expected expression before  }  token
+IdNoDef	{ printf ( STRING , ID , ID ) ; } ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	return ( ( CONST * ID - CONST ) * ID ( ID - CONST ) ) / ID + CONST expected  ;  before  }  token
+KeyWordWrongUsage	if ( ) expected expression before  )  token
+BoundLost	return ( ( ( CONST * ID - CONST ) * ID ( ID - CONST ) ) / ( ID + CONST ) ) expected  ;  before  }  token
+BoundLost	printf ( STRING , ID ( ID ) ) expected  ;  before  ID
+TypeWrongUsage	ID [ ID + CONST ] = float ( CONST * ( CONST * ID + CONST ) ) / ( ID + CONST ) * ID [ ID ] ; expected expression before  float
+BoundLost	ID ( ID , ID , ID ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	while ( ID ( ID ) <= ID ) ID  undeclared
+KeyWordWrongUsage	return = CONST ; expected expression before  =  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  break
+IdNoDef	while ( ID ( ID ) < ID ) ID  undeclared
+BoundLost	scanf ( STRING , & ID ) ; printf expected  ;  before  for
+BoundLost	return ID ( ( ID - CONST ) * ( ( CONST * ID ) - CONST ) / ( ID + CONST ) ) expected  ;  before  }  token
+BoundRedundant	else { ID ++ ; , ID -- ; } expected expression before  ,  token
+BoundLost	ID = ID ( ID ) * ID ( ID - ID - CONST ) expected  ;  before  return
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	for ( ID = CONST ; ID ++ ) expected  ;  before  )  token
+IdNoDef	int ID , ID = ID , ID , ID ; ID  undeclared
+BoundLost	ID = ID [ ID ] expected  ;  before  }  token
+IdNoDef	if ( ( ID [ ID ] > ID ) && ( ID [ ID ] < ID ) ) ID  undeclared
+IdNoDef	printf ( STRING , ID [ ID ] ) ; ID  undeclared
+IdNoDef	if ( ID [ ID ] < ID ) { ID  undeclared
+IdWrongUsage	ID = ID ( int ID ) ; expected expression before  int
+IdNoDef	ID = ID - ID [ ID ] ; ID  undeclared
+BoundWrongUsage	for ( int ID = CONST ; ID < ID : ID ++ ) { expected  ;  before  :  token
+IdNoDef	ID = ID [ CONST ] ; ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	ID = ID < ID [ ID ] ? ID [ ID ] : ID ; ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  for
+IdNoDef	ID = ID > ID [ ID ] ? ID : ID [ ID ] ; ID  undeclared
+IdNoDef	return ID ; ID  undeclared
+IdNoDef	if ( ID < ID [ ID ] ) ID  undeclared
+IdNoDef	if ( ID [ ID ] < ID ) ID  undeclared
+BoundWrongUsage	for ( ID = CONST ; ID < ID : ID ++ ) { expected  ;  before  :  token
+IdNoDef	if ( ID > CONST ) ID  undeclared
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  printf
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+IdWrongUsage	ID = ID ( int ID ) ; expected expression before  int
+IdNoDef	if ( ID < ID ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	ID ( ID ) expected  ;  before  printf
+BoundRedundant	void ID ( int ID , char ID , char ID , char ID ) ; expected identifier or  (  before  {  token
+KeyWordWrongUsage	if ( ID > ID ) expected expression before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID ( ID , ID ) ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdWrongUsage	ID ( , ) ; expected expression before  ,  token
+IdNoDef	ID ( ID , ID ) ; ID  undeclared
+BoundNotMatch	if ( ID == CHARST && ID == CHARST ) { ID ( ID , ID ) ; ID ( ID , ID ) ; expected  }  before  else
+BoundLost	ID ( ID , ID , ID , ID ) expected  ;  before  return
+OPLost	return ID ( ( ID - CONST ) ID ( ID - CONST ) ) ; expected  )  before  ID
+BoundLost	ID ( ID , ID , ID , ID ) expected  ;  before  }  token
+APIcallWrongUsage	scanf ( STRING , % ID ) ; expected expression before  %  token
+BoundLost	ID ( ID - CONST , ID , ID , ID ) expected  ;  before  }  token
+BoundLost	ID ( ID - CONST , ID , ID , ID ) expected  ;  before  ID
+BoundWrongUsage	char CHARST , CHARST , CHARST ; expected identifier or  (  before  A
+IdNoDef	return ID ; ID  undeclared
+BoundRedundant	char ID , ID , ID , ; expected identifier or  (  before  ;  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+OPWrongUsage	else if ( ( ( ID == ID ) && ( ID == ID ) ) || ( ( ID == ID ) && ( ID == ID ) ) ) ID = ID ; * / expected expression before  ID  token
+BoundLost	ID -- expected  ;  before  }  token
+BoundRedundant	} expected identifier or  (  before  {  token
+BoundLost	printf ( STRING ) expected  ;  before  return
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+OPWrongUsage	void ID ( char * ID , * char ID ) { expected declaration specifiers or  ...  before  *  token
+BoundLost	ID ( ID , ID , ID ) expected  ;  before  return
+BoundLost	ID ( ID - CONST , ID , ID , ID ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+OPLost	return ( CONST * ( CONST * ( ID - CONST ) + CONST ) / ( ID - CONST + CONST ) ) ID ( ID - CONST ) ; expected  ;  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+APIcallWrongUsage	printf ( STRING ID ) ; } expected  )  before  ID
+IdNoDef	printf ( STRING , ID [ ID ] ) ; ID  undeclared
+IdNoDef	ID = ID + ID [ ID ] ; } ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	return ( ( ID ( CONST * ( ID ) ) / ( ID ( ID ) * ID ( ID + CONST ) ) ) + ID ( ID - CONST ) ) expected  ;  before  }  token
+IdNoDef	else return ( ( ( CONST * ( CONST * ID - CONST ) / ID ) ) * ID ( ID - CONST ) ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	else if expected  (  before  return
+IdNoDef	ID = ID ( ID ) ; ID  undeclared
+IdNoDef	return CONST * ( CONST * ID - CONST ) * ID ( ID , ID - CONST ) / ( ID + CONST ) ; ID  undeclared
+BoundLost	return ( ( CONST * ID - CONST ) / ID + CONST ) * ID ( ID - CONST ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	return ID = ID + ID ( ID - CONST ) ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+KeyWordWrongUsage	if ( ) expected expression before  )  token
+IdNoDef	return ID * ID ; ID  undeclared
+IdNoDef	ID = ( CONST * ( - CONST - ID ) ) / ID + ID * ID * CONST * ( ID + CONST )  ; ID  undeclared
+BoundLost	ID = ( ( ID - ID ) / ID ) expected  ;  before  for
+BoundLost	const double ID = CONST expected  ,  or  ;  before  int
+IdNoDef	ID = ( ID - ID ) / ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundRedundant	for ( ID = ID ; ID < ID ; ID = ID + ( ID - ID ) / ID ) ) expected statement before  )  token
+IdNoDef	double ID = CONST ; ID = ( ID - ID ) / ID ; ID  undeclared
+OPWrongUsage	else if ( ID = < CONST && ID >= ( - CONST ) ) expected expression before  <  token
+BoundLost	ID = ID + ID ( ID ) * ( ID - ID ) / ID expected  ;  before  }  token
+KeyWordWrongUsage	else ( ( - CONST < ID ) && ( ID < CONST ) ) { expected  ;  before  {  token
+IdNoDef	ID += - CONST * ID ; ID  undeclared
+IdNoDef	else if ( ID > - CONST && ID < CONST ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+OPDataLost	for ( ID = ID ; ID < ; ID = ID + ID ) expected expression before  ;  token
+KeyWordWrongUsage	if ( ID >= - CONST && ID <= CONST ) expected expression before  }  token
+KeyWordWrongUsage	if else ( ID >= CONST && ID >= CONST ) expected  (  before  else
+BoundLost	ID = CONST expected  ;  before  }  token
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+BoundLost	else return ID * ID expected  ;  before  }  token
+APIcallWrongUsage	scanf ( STRING . & ID ) ; expected identifier before  &  token
+BoundWrongUsage	for ( ID = CONST ; ID < ID , ID ++ ) { expected  ;  before  )  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+TypeWrongUsage	ID = float ( ( ID - ID ) ) / ID ; expected expression before  float
+BoundRedundant	double ID ( int ID ) ; expected identifier or  (  before  {  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+IdNoDef	return ID ; ID  undeclared
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	scanf ( STRING , ID ) ; ID  undeclared
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  ID
+BoundLost	ID = scanf ( STRING , & ID ) expected  ;  before  for
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	int ID , ID , ID , ID , ID = - ID , ID = ID , ID ; ID  undeclared
+OPWrongUsage	printf ( STRING , ID ) ; * / expected expression before  ID  token
+BoundLost	ID [ ID ] = ID expected  ;  before  for
+BoundLost	ID [ ID ] = ID [ ID - CONST ] expected  ;  before  }  token
+IdNoDef	if ( ID <= ID ) ID  undeclared
+BoundNotMatch	printf ( STRING , ID ) ; expected declaration or statement at end of input
+IdNoDef	ID = ID ( ID [ ID ] , ID [ ID + CONST ] ) ; ID  undeclared
+IdNoDef	ID ( STRING , ID ) ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+OPWrongUsage	if ( ID [ CONST ] = > ID [ ID ] ) expected expression before  >  token
+APIcallWrongUsage	scanf ( STRING ; & ID [ ID ] , & ID [ ID ] ) ; expected  )  before  ;  token
+IdNoDef	scanf ( STRING , ID ) ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+BoundLost	ID = ID ( ID , ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID = ID + CONST ) ID  undeclared
+IdNoDef	ID = ID [ ID ] [ CONST ] ; ID  undeclared
+BoundLost	} printf ( STRING , ID ) expected  ;  before  }  token
+OPDataLost	ID = ; expected expression before  ;  token
+IdNoDef	for ( ID = CONST ; ID <= ID - CONST ; ID ++ ) ID  undeclared
+IdNoDef	for ( int ID = ID ; ID < ID ; ID ++ ) ID  undeclared
+APIcallWrongUsage	printf ( STRING , % ID [ ID ] ) ; expected expression before  %  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundLost	break expected  ;  before  for
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	ID = ID [ ID ] + ID [ ID ] ; ID  undeclared
+BoundNotMatch	if ( ID [ ID ] + ID [ ID - ID ] == ID ) { printf ( STRING ) ; expected  }  before  else
+IdNoDef	scanf ( STRING , & ID , & ID ) ; ID  undeclared
+OPDataLost	scanf ( STRING , & ID [ ] ) ; expected expression before  ]  token
+IdNoDef	for ( ID = ID + CONST ; ID <= ID ; ID ++ ) ID  undeclared
+IdNoDef	while ( ID < ID ) { ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ID [ ID ] < ID ) ID  undeclared
+OPDataLost	for ( ID = CONST ; ID < ; ID ++ ) expected expression before  ;  token
+IdNoDef	if ( ID == CONST ) ID  undeclared
+IdNoDef	ID [ ID ] ; ID  undeclared
+BoundWrongUsage	for ( int ID = CONST ; ID < ID , ID ++ ) { expected  ;  before  )  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+KeyWordWrongUsage	else ( ID == CONST ) { expected  ;  before  {  token
+OPWrongUsage	printf ( STRING , ID [ ID ] + ID [ ID ) ; expected  ]  before  )  token
+BoundLost	ID ++ expected  ;  before  }  token
+KeyWordWrongUsage	if ( ID [ ID ] + ID [ ID ] == ID ) expected expression before  }  token
+IdNoDef	if ( ID [ ID ] % CONST == CONST ) ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  break
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  ID
+IdNoDef	for ( ID = CONST ; ID [ ID ] < ID [ ID ] ; ID ++ ) ID  undeclared
+IdNoDef	ID ++ ; ID  undeclared
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  for
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	ID = CONST , ID = CONST ; ID  undeclared
+OPDataLost	ID = ; expected expression before  ;  token
+BoundLost	ID ( STRING , & ID ) expected  ;  before  for
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	{ ID ++ } expected  ;  before  }  token
+OPWrongUsage	printf ( STRING , ID ) ; + expected expression before  }  token
+KeyWordWrongUsage	while ( ) expected expression before  )  token
+BoundWrongUsage	for ( ID = CONST ; ID ( ID ) < ID [ ID ] , ID ++ ) expected  ;  before  )  token
+OPLost	ID = ID + ID ( ID ) ID ( ID - ID ) ; expected  ;  before  ID
+IdNoDef	return ( ( ID ( ID - CONST ) * ( CONST * ID - CONST ) * CONST ) / ID + CONST ) ; ID  undeclared
+OPLost	return CONST * ( CONST * ID - CONST ) ID ( ID - CONST ) / ( ID + CONST ) ; expected  ;  before  ID
+APIcallWrongUsage	printf ( STRING ID ( ID - CONST ) ) ; expected  )  before  ID
+IdNoDef	if ( ID == CONST ) ID  undeclared
+IdWrongUsage	int ID ( int ID + CONST ) expected  ; , ',' or  )  before  +  token
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ ) { ID  undeclared
+BoundLost	ID = ID + ( ID ( ID ) * ID ( ID - ID - CONST ) ) expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID ( ID ) < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	else if ( ) expected expression before  )  token
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	if ( ID = ID [ CONST ] && ID == CONST ) ID = ID [ ID ] ; ID  undeclared
+BoundRedundant	int ID ( int ID , int ID ) ; expected identifier or  (  before  {  token
+IdNoDef	for ( int ID = CONST ; ID < ID ; ID ++ && ID == CONST ) { ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  for
+BoundLost	ID = ID ( ID [ ID ] , ID ) expected  ;  before  }  token
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ++ ID ) ID  undeclared
+IdNoDef	ID = ID + CONST ; ID  undeclared
+KeyWordWrongUsage	if ( ID [ ID ] < ID && expected expression before  for
+OPDataLost	for ( ID = ID + CONST ; ID < ID ; ++ ) { expected expression before  )  token
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  return
+IdNoDef	printf ( STRING , ID [ ID ] ) ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	{ ID = ID expected  ;  before  ID
+IdNoDef	ID [ ID ] = ID [ ID ] ; ID  undeclared
+IdNoDef	return ID [ ID - CONST ] ; ID  undeclared
+IdNoDef	ID ++ ; ID  undeclared
+BoundLost	ID [ ID ] = ID [ ID ] ; printf ( STRING , ID [ ID ] ) expected  ;  before  ID
+IdNoDef	printf ( STRING , ID [ ID ] ) ; ID  undeclared
+IdNoDef	int ID , ID , ID , ID , ID , ID , ID , ID = ID ; ID  undeclared
+IdNoDef	if ( ID [ ID ] = CONST ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) printf ( STRING , ID [ ID ] ) ; ID  undeclared
+OPDataLost	if ( ID [ ID ] > [ ID + CONST ] ) expected expression before  [  token
+BoundLost	ID = ID [ CONST ] expected  ;  before  for
+IdNoDef	if ( ID [ ID ] < ID [ ID ] ) ID  undeclared
+OPDataLost	printf ( STRING , ID [ ] ) ; expected expression before  ]  token
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	if ( ID [ ID ] > ID ) && ( ID [ ID ] <= ID ) { expected identifier before  (  token
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	printf ( STRING , ID [ ID - ID - CONST ] ) ; ID  undeclared
+IdNoDef	int ID [ ID ] ; ID  undeclared
+IdNoDef	int ID = CONST ; ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+OPDataLost	int ID , ID , ID = CONST , ID , ID = ; expected expression before  ;  token
+IdNoDef	ID = ID [ ID - CONST ] ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+KeyWordWrongUsage	while ( ) { expected expression before  )  token
+OPDataLost	ID = expected expression before  }  token
+IdNoDef	printf ( STRING , ID , ID - ID ) ; ID  undeclared
+NotInclude	int ID [ CONST ] [ CONST ] = { CONST , , , , , } ; expected expression before  ,  token
+APIcallWrongUsage	scanf ( STRING , % ID ) ; expected expression before  %  token
+OPWrongUsage	if ( ID [ ID ] = > ID [ ID ] ) expected expression before  >  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID - CONST ; ID  undeclared
+APIcallWrongUsage	printf ( % ID , ID ) ; expected expression before  %  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ( ID + * ( ID + ID ) ) >= ( ID + * ( ID + ID ) ) ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	int ID [ ID ] [ ID ] ; ID [ ID ] [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+KeyWordWrongUsage	else if ( ) expected expression before  )  token
+IdNoDef	printf ( STRING , ID , ID - ID ) ; ID  undeclared
+IdNoDef	ID [ CONST ] ; ID  undeclared
+IdNoDef	for ( ID = ID ; ID >= ID ; ID -- ) { ID  undeclared
+BoundLost	ID = ID - CONST expected  ;  before  while
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	while ( ID < ID - CONST && ID > CONST ) { ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+TypeWrongUsage	printf ( STRING , int ID , int ID ) ; expected expression before  int
+KeyWordWrongUsage	break ( ) ; expected  ;  before  (  token
+BoundRedundant	} expected identifier or  (  before  }  token
+IdNoDef	if ( ID == CONST ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdWrongUsage	void ID ( int ID = CONST ; int ID = CONST ) expected  ; , ',' or  )  before  =  token
+APIcallWrongUsage	printf ( STRING ID , ID ) ; expected  )  before  ID
+KeyWordWrongUsage	if for ( ID = CONST ; ID <= CONST ; ID ++ ) { expected  (  before  for
+BoundLost	return ID ( ID - CONST , CONST ) expected  ;  before  else
+BoundLost	printf ( STRING ) expected  ;  before  return
+KeyWordWrongUsage	else ( ( ID > CONST ) && ( ID > CONST ) ) { expected  ;  before  {  token
+IdNoDef	int main ( ) { printf ( STRING , ID ( CONST , ID ) ) ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	return ID ( ID - CONST , CONST ) expected  ;  before  else
+BoundLost	printf ( STRING , ID , ID ) expected  ;  before  break
+IdNoDef	ID = CONST ; ID  undeclared
+BoundLost	printf ( STRING , ID , ID ) expected  ;  before  exit
+BoundLost	ID = ID ( ID , ID ) expected  ;  before  for
+APIcallWrongUsage	printf ( STRING , ID ID ) ; expected  )  before  ID
+APIcallWrongUsage	printf ( STRING , ) ; expected expression before  )  token
+BoundLost	ID ++ expected  ;  before  }  token
+IdNoDef	scanf ( STRING , ID ) ; ID  undeclared
+IdNoDef	int ID = CONST ; int ID [ ID ] [ CONST ] ; int ID ; ID  undeclared here
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	printf ( STRING , ID + CONST , ID + CONST ) ; ID  undeclared
+OPDataLost	if ( ( ID [ ID ] - ID <= ID [ ID ] && ID [ ID ] <= ID [ ID ] + ID ) && ) { expected expression before  )  token
+BoundLost	ID ++ expected  ;  before  }  token
+BoundLost	if ( ID [ ID ] >= ID [ ID ] - ID  && ID [ ID ] <= ID [ ID ] + ID ) { ID ++ ; ID ++ ; ID ++ } expected  ;  before  }  token
+BoundLost	ID ++ expected  ;  before  ID
+IdNoDef	ID = ID + CONST ; ID  undeclared
+IdNoDef	ID ++ ; ID  undeclared
+BoundLost	{   ID = CONST expected  ;  before  for
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID [ CONST * ID ] = ID + CONST ; ID  undeclared
+BoundLost	ID [ ID ] = ID [ ID ] expected  ;  before  for
+BoundLost	ID [ ID ] = ID expected  ;  before  ID
+BoundNotMatch	} expected declaration or statement at end of input
+OPDataLost	for ( ID = CONST ; ID < ID ; ++ ) expected expression before  )  token
+BoundLost	ID ++ expected  ;  before  break
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+OPDataLost	ID [ ] expected expression before  ]  token
+BoundLost	else ID ++ } ; } expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID ; ID = ID ; ID  undeclared
+BoundWrongUsage	else if ( ID [ ID ] < ID { ID } - ID ) expected  )  before  {  token
+OPWrongUsage	if ( ( ( ID [ ID ] - ID ) <= ID [ ID ] ) && ( ( ID [ ID ] + ID ) = > ID [ ID ] ) ) expected expression before  >  token
+KeyWordWrongUsage	if ( ID [ ID ] >= ID [ ID ] + ID ) expected expression before  }  token
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundWrongUsage	ID ++ : expected  ;  before  :  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	printf ( STRING , * ( ID + ID ) ) expected  ;  before  }  token
+BoundRedundant	# include < stdlib.h > expected identifier or  (  before  }  token
+BoundLost	ID = ( int * ) malloc ( ID * sizeof ( int ) ) expected  ;  before  ID
+IdNoDef	ID [ CONST * ID - CONST ] = ID ; ID  undeclared
+IdNoDef	printf ( STRING , ID [ ID ] [ CONST ] , ID [ ID ] [ CONST ] ) ; ID  undeclared
+IdNoDef	ID ++ ; ID  undeclared
+BoundLost	printf ( STRING , ID + CONST , ID + CONST ) expected  ;  before  ID
+KeyWordWrongUsage	for ( ( ID = CONST , ID = CONST , ID = CONST ) ; ID < ID && ID < ID ) expected  ;  before  )  token
+IdNoDef	ID [ ID ] = ID + CONST ; ID  undeclared
+IdNoDef	for ( ID = CONST , ID = CONST , ID = CONST ; ID < ID && ID < ID ; ) ID  undeclared
+OPDataLost	if ( ( * ( ID + ID ) >= ( * ( ID + ID ) - ID ) ) && ( * ( ID + ID ) <= ( * ( ID + ID ) + ) ) ) expected expression before  )  token
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	int ID ; ID = CONST ; ID  undeclared
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	* ( ID + ID ) = ID ; ID ++ ; ID  undeclared
+BoundLost	ID [ ID ] = CONST expected  ;  before  ID
+BoundLost	scanf ( STRING ) expected  ;  before  for
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ )  { ID  undeclared
+IdNoDef	if ( ID [ ID ] >= ( ID [ ID ] - ID ) && ID [ ID ] <= ( ID [ ID ] + ID ) ) ID  undeclared
+BoundRedundant	{  if ( ( ( ID [ ID ] - ID ) <= ID [ ID ] ) && ( ( ID [ ID ] + ID ) >= ID [ ID ] ) ) ) expected statement before  )  token
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	ID [ ID ] = ID + CONST ID + CONST ; expected  ;  before  ID
+IdNoDef	printf ( STRING , ID [ ID ] [ CONST ] , ID [ ID ] [ CONST ] ) ; ID  undeclared
+BoundLost	{ if ( ( * ID >= ( * ID - ID ) ) && ( * ID <= ( * ID + ID ) ) ) { ID ++ ; ID ++ ; ID ++ ; ID ++ } expected  ;  before  }  token
+BoundRedundant	printf ( STRING , ID ( ID , ID , ID , ID ) ; ) ; expected  )  before  ;  token
+IdNoDef	for ( ID = CONST ; ID < ID && ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ( ID [ ID ] > ( ID [ ID ] - ID ) ) && ( ID [ ID ] < ID [ ID ] + ID ) ) ID  undeclared
+IdNoDef	ID [ ID ] = CHART ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	else expected expression before  }  token
+KeyWordWrongUsage	if ( ID [ ID ] - ID ) <= ( ID [ ID ] ) && ( ID [ ID ] + ID ) >= ( ID [ ID ] ) { expected expression before  <=  token
+KeyWordWrongUsage	if ( ( ID [ ID ] - ID ) <= ID [ ID ] <= ID [ ID ] - ID ) expected expression before  }  token
+BoundRedundant	while ( ID != ID && ID != ID ) ) expected statement before  )  token
+APIcallWrongUsage	scanf ( STRING , ) expected expression before  )  token
+BoundLost	ID ++ expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < CONST * ID ; ID ++ ) { ID  undeclared
+OPDataLost	printf ( STRING , ID , ID , ID , & ) ; expected expression before  )  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID [ ID ] = ID + CONST ; ID  undeclared
+BoundLost	ID [ ID ] [ CONST ] = ID expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundLost	scanf ( STRING , & ID [ ID ] ) ; printf ( STRING , ID + CONST , ID [ ID ] ) } expected  ;  before  }  token
+BoundLost	* ( ID + ID ) == CONST expected  ;  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	for ( ID = CONST ; ID < ID ) expected  ;  before  )  token
+KeyWordWrongUsage	if ( ID [ ID ] == ID [ ID ] ) expected expression before  }  token
+BoundLost	ID ( ID + CONST , ID + CONST ) expected  ;  before  }  token
+IdNoDef	ID = ( long int * ) malloc ( ID * sizeof ( long int ) ) ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+APIcallWrongUsage	scanf ( % ID % ID , & ID , & ID ) ; expected expression before  %  token
+BoundLost	else ( ID > CONST ) expected  ;  before  ID
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	printf ( STRING , CONST + ( CONST * ( ID - CONST ) ) / CONST ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  if
+KeyWordWrongUsage	else if expected  (  before  {  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ID <= CONST ) printf ( STRING ) ; ID  undeclared
+TypeWrongUsage	{ ID = float ( ID - CONST ) * CONST / CONST ; expected expression before  float
+BoundNotMatch	if ( ID == CONST ) { printf ( STRING ) ; expected  }  before  else
+BoundLost	ID = CONST expected  ;  before  else
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  if
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  if
+NotInclude	int main expected  = , ',',  ; ,  asm  or  __attribute__  before  {  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	else ( ID <= CONST ) expected  ;  before  {  token
+BoundLost	ID = ( CONST * ( ID - CONST ) ) + CONST expected  ;  before  printf
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundLost	ID = CONST + CONST * ID expected  ;  before  else
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+APIcallWrongUsage	printf ( STRING ID % CONST ) ; expected  )  before  ID
+IdNoDef	for ( ID = CONST , ID = ID ; ID <= ID - CONST * ( ID - ID + CONST ) ; ID ++ , ID ++ ) ID  undeclared
+APIcallWrongUsage	scanf ( STRING , & ID , % ID ) ; expected expression before  %  token
+IdNoDef	for ( ID = CONST ; ID <= ID - CONST * ( ID - ID ) ; ID ++ ) ID  undeclared
+OPDataLost	for ( ID = CONST ; ID <= ; ID = ID + CONST ) expected expression before  ;  token
+IdNoDef	for ( ID = ID ; ID < ID + ID ; ID = ID + CONST ) { ID = ID % CONST ; printf ( STRING ) ; } ID  undeclared
+BoundLost	ID = ID % CONST expected  ;  before  }  token
+IdNoDef	for ( ID = ID , ID = CONST ; ID <= ID - ( CONST * ( ID - ID ) ) ; ID ++ , ID ++ ) ID  undeclared
+IdNoDef	ID = ( ID + CONST ) % CONST ; ID  undeclared
+IdNoDef	for ( ID = ID ; ID < ( ID - CONST * ID + ID * CONST ) ; ID ++ ) ID  undeclared
+IdNoDef	return ID ( ID - CONST ) * ( ( CONST * ID - CONST ) / ( ID + CONST ) ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+NotInclude	} expected identifier or  (  before numeric constant
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  {  token
+OPLost	return ( CONST * ( CONST * ID - CONST ) / ( ID + CONST ) ) ID ( ID - CONST ) ; expected  ;  before  ID
+IdNoDef	return ID ; ID  undeclared
+APIcallWrongUsage	printf ( STRING ID ( ID - CONST ) ) ; expected  )  before  ID
+IdNoDef	if ( ID == CONST ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+KeyWordWrongUsage	else if expected  (  before  {  token
+IdNoDef	return ( ( CONST * ( CONST * ID - CONST ) * ID ( ID - CONST ) ) / ( ( float ) ( ID + CONST ) ) ) ; ID  undeclared
+BoundLost	else { printf ( STRING , ID ) expected  ;  before  return
+BoundLost	printf ( STRING , ( CONST * ( CONST * CONST - CONST ) ) / ( CONST * ( CONST + CONST ) ) ) expected  ;  before  return
+BoundRedundant	} expected identifier or  (  before  }  token
+IdNoDef	printf ( STRING , ID ( ID ) ) ; ID  undeclared
+IdNoDef	else return ( ( CONST * ( ( CONST * ID ) - CONST ) ) * ID ( ID - CONST ) ) / ( ID + CONST ) ; ID  undeclared
+IdNoDef	printf ( STRING , ID ( ID ) ) ; ID  undeclared
+IdNoDef	if ( ID <= CONST ) ID  undeclared
+IdWrongUsage	int ID ( int ( ID + CONST ) ) expected  )  before  +  token
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  printf
+TypeWrongUsage	printf ( STRING , float ( ID - ID ) / ( ID - ID ) ) ; expected expression before  float
+BoundLost	ID = ( ID - ID ) * CONST expected  ;  before  ID
+NotInclude	ID = ( ( ID - ID ) CONST / ( ID - ID ) ) ; expected  )  before numeric constant
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+KeyWordWrongUsage	else if { expected  (  before  {  token
+BoundLost	ID = ID / ID expected  ;  before  printf
+KeyWordWrongUsage	if ( ID - ID ) > CONST printf ( STRING ) ; expected expression before  >  token
+BoundLost	printf ( STRING , ID , ID , ID , ID ) expected  ;  before  if
+IdNoDef	ID = ID / ( ID - ID ) ; ID  undeclared
+KeyWordWrongUsage	if expected  (  before  return
+BoundLost	ID = ID / ID expected  ;  before  printf
+TypeWrongUsage	if ( ID != ID ) { ID = ( ( float ) ID - float ( ID ) ) / ( ( float ) ID - ( float ) ID ) ; expected expression before  float
+BoundLost	else ( ( - CONST <= ID , ID , ID , ID ) && ( ID , ID , ID , ID <= CONST ) ) expected  ;  before  {  token
+BoundLost	printf ( STRING , CONST ) expected  ;  before  else
+KeyWordWrongUsage	else if { expected  (  before  {  token
+IdNoDef	int ID ; ID ; ID  undeclared
+NotInclude	ID = ( ID CONST - ID CONST ) / ( ID - ID ) ; expected  )  before numeric constant
+IdNoDef	if ( ( ID != ID ) || ( ID != ID ) ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	while ( ( ID >= - CONST ) && ( ID <= CONST ) ) expected  ;  before  return
+IdNoDef	if ( ID == - ID || ID == ID ) ID  undeclared
+KeyWordWrongUsage	else if { expected  (  before  {  token
+TypeWrongUsage	ID = float ( ( ID - ID ) / ( ID - ID ) ) ; expected expression before  float
+BoundLost	float ID = ID - ID expected  ,  or  ;  before  scanf
+IdNoDef	ID = ( ID - ID ) / ( ID - ID ) ; ID  undeclared
+BoundLost	printf ( STRING , STRING ) expected  ;  before  }  token
+OPWrongUsage	if ( ID != = ID ) expected expression before  =  token
+TypeWrongUsage	ID = float ( ID - ID ) / ( ID - ID ) ; expected expression before  float
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	{ printf ( STRING ) ; expected  }  before  else
+NotInclude	ID = ( ( ID - ID ) / ( ID - ID ) CONST ) ; expected  )  before numeric constant
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundRedundant	int ID ( int ID [ ] , int ID , int ID , int ID , int ID ) ; expected identifier or  (  before  {  token
+IdNoDef	{   for ( ID = ID ; ID < ID - CONST ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID ( ID , CONST , ID , CONST , CONST ) ; ID  undeclared
+IdWrongUsage	int ID ( int ID , int ID [ ] , int ID , int ID , ID ) { expected declaration specifiers or  ...  before  ID
+NotInclude	else expected expression before  int
+IdWrongUsage	int ID ( ID , ID , ID [ ] ) expected  )  before  [  token
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundRedundant	for ( ID = CONST , ; ID < ID ; ID ++ ) expected expression before  ;  token
+IdNoDef	if ( ID == CONST && ID != CONST ) ID  undeclared
+BoundRedundant	for ( ID = CONST ; ; ID < ID ; ID ++ ) expected  )  before  ;  token
+KeyWordWrongUsage	else if ( ID == ID ) expected expression before  }  token
+IdWrongUsage	int ID ( ID , ID [ ] , ID ) expected  )  before  [  token
+IdNoDef	ID = CONST ; ID  undeclared
+BoundLost	return ID ( ID - CONST , ID , ID - ID [ ID - CONST ] , ID + ID [ ID - CONST ] ) || ID ( ID - CONST , ID , ID , ID ) expected  ;  before  }  token
+IdNoDef	if ( ID == ID - CONST ) ID  undeclared
+KeyWordWrongUsage	return expected expression before  if
+IdNoDef	if ( ID ( ID , ID / CONST , ID ) ) ID  undeclared
+BoundLost	else return ( ID , ID ) expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID - CONST ; ID ++ ) ID  undeclared
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	ID ++ expected  ;  before  }  token
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	if ( ID [ ID ] > ID [ ID + CONST ] ; ID ++ ) expected  )  before  ;  token
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  ID
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	int ID [ ID ] ; ID  undeclared
+IdNoDef	int ID [ ID ] ; ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID - CONST ; ID ++ ) ID  undeclared
+BoundLost	ID = ID + CONST } ; expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	if ( ( ID [ ID ] > ID [ ID - CONST ] ) && ( ID [ ID ] > ID [ ID + CONST ] ) ) ID  undeclared
+KeyWordWrongUsage	else ( continue ) ; expected expression before  continue
+BoundLost	ID = ID + CONST expected  ;  before  }  token
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+OPWrongUsage	printf ( STRING , ID ) ; / expected expression before  ID  token
+IdNoDef	if ( ( ID [ ID - CONST ] < ID [ ID ] ) && ( ID [ ID ] < ID [ ID + CONST ] ) ) { ID  undeclared
+BoundWrongUsage	ID = CONST * ID expected  ;  before  for
+BoundLost	printf ( STRING ) expected  ;  before  printf
+BoundLost	printf ( STRING ) expected  ;  before  return
+IdNoDef	for ( ID = CONST ; ID <= ( CONST * ID - CONST ) ; ID ++ ) ID  undeclared
+BoundLost	ID = CONST * ID - CONST expected  ;  before  for
+BoundNotMatch	} expected declaration or statement at end of input
+OPDataLost	for ( ID = CONST * ID - CONST - ; ID >= CONST ; ID -- ) expected expression before  ;  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundWrongUsage	for ( ID = ID ; ID <= ID , ID ++ ) { expected  ;  before  )  token
+BoundLost	( ID % CONST != CONST ) expected  ;  before  printf
+IdNoDef	for ( ID = CONST ; ID <= ID - CONST ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	if ( for ( ID = CONST ; ID <= CONST * ID - CONST * ID - CONST ; ID ++ ) expected expression before  for
+KeyWordWrongUsage	} expected identifier or  (  before  return
+BoundLost	ID [ CONST ] = ID [ ID - CONST ] expected  ;  before  for
+BoundLost	ID = ID [ ID - CONST ] expected  ;  before  for
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID ( ID , ID , ID ) ; ID  undeclared
+OPDataLost	ID ( ID [ ] , ID , ID ) ; expected expression before  ]  token
+OPDataLost	printf ( STRING , ID ( ID , ID , ID , ID [ ] ) ) ; expected expression before  ]  token
+OPDataLost	ID ( ID [ ] , ID ) ; expected expression before  ]  token
+OPDataLost	ID ( ID [ ] , ID , ID ) ; expected expression before  ]  token
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	ID [ ID + ID - ID ] = ID [ ID ] ; ID  undeclared
+IdNoDef	ID [ ID ] ; ID  undeclared
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+IdWrongUsage	void ID ( ID , ID [ ] , ID ) expected  )  before  [  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	int ID [ ID ] , ID ; ID  undeclared here
+IdNoDef	for ( ID = CONST ; ID < ID + CONST ; ID ++ ) ID  undeclared
+IdNoDef	int ID , ID = ID [ CONST ] ; ID  undeclared
+BoundLost	printf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  return
+BoundLost	printf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	int ID , ID = ID [ CONST ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID ( ID , ID ) ; ID  undeclared
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+BoundLost	if ( ID ( ID , ID ) == ID ) printf ( STRING , ID , ID ) expected  ;  before  return
+BoundLost	int ID , ID , ID , ID = CONST expected  ,  or  ;  before  scanf
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	goto return CONST ; expected identifier or  *  before  return
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	if ID ( ID , ID ) == ID ; { break ; } expected  (  before  ID
+BoundLost	ID ++ expected  ;  before  break
+IdNoDef	if ( ID == CONST && ID == CONST ) ID  undeclared
+BoundWrongUsage	if ( ID < ID ) { ID = CONST , ID = CONST , return CONST ; } expected expression before  return
+IdNoDef	{ printf ( STRING , ID , ID ) ; ID = CONST ; break ; } ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ )    { ID  undeclared
+KeyWordWrongUsage	for ( ID = CONST ; ) expected expression before  )  token
+BoundRedundant	int ID ( int ID , int ID ) ; expected identifier or  (  before  {  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	{ printf ( STRING , ID , ID ) ; ID ++ ; break ; } ID  undeclared
+APIcallWrongUsage	printf ( STRING , ID ID ) ; expected  )  before  ID
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+APIcallWrongUsage	{ printf ( STRING ID , ID ) ; expected  )  before  ID
+KeyWordWrongUsage	else if { expected  (  before  {  token
+IdNoDef	for ( ID = CONST ; ID <= CONST ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected  }  before  else
+BoundNotMatch	} expected declaration or statement at end of input
+BoundRedundant	int ID , ID , ID , ; expected identifier or  (  before  ;  token
+BoundLost	else printf ( STRING ) } expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+APIcallWrongUsage	printf ( * ) ; expected expression before  )  token
+BoundWrongUsage	for ( ID = - ( ID - CONST ) ; ID < ID , ID ++ ) expected  ;  before  )  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  for
+IdNoDef	for ( ID = CONST ; ID < ID - CONST ; ID ++ ) ID  undeclared
+OPDataLost	for ( ID = CONST ; ID <= ; ID ++ ) expected expression before  ;  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = CONST ; ID  undeclared
+KeyWordWrongUsage	else expected expression before  }  token
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+APIcallWrongUsage	printf ( STRING , ) ; expected expression before  )  token
+IdNoDef	if ( ID [ ID [ ID ] ] == CONST ) ID  undeclared
+OPDataLost	if ( ID [ ID ] == ) printf ( STRING , ID + CONST ) ; expected expression before  )  token
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	ID = CONST ; ID  undeclared
+BoundLost	ID = ( ID - ( ID - ID ) ) expected  ;  before  printf
+IdNoDef	ID ++ ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+APIcallWrongUsage	printf ( STRING ID , ID ) ; expected  )  before  ID
+NotInclude	for ( int ID = CONST ; ID <= ID ; ID ++ ) . expected expression before  .  token
+IdNoDef	ID = CONST ; ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  printf
+IdNoDef	ID [ ( ID [ ID ] - CONST ) ] ++ ; ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	for ( int ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+OPDataLost	for ( ID = CONST ; ID < ID ; ++ ) { expected expression before  )  token
+IdNoDef	ID = ID ; ID  undeclared
+BoundLost	ID = ID + ID [ ID ] expected  ;  before  }  token
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID + CONST ; ID  undeclared
+NotInclude	int main expected  = , ',',  ; ,  asm  or  __attribute__  before  {  token
+BoundLost	int ID = ( ID [ ( ID / CONST ) - CONST ] + ID [ ID / CONST ] ) / CONST expected  ,  or  ;  before  printf
+BoundLost	ID = ID [ ( ID + CONST ) / CONST - CONST ] expected  ;  before  printf
+BoundLost	float ID = ( ID [ ID / CONST ] + ID [ ID / CONST - CONST ] ) / CONST expected  ,  or  ;  before  printf
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+APIcallWrongUsage	printf ( % ID , ID [ ID ] ) ; expected expression before  %  token
+BoundNotMatch	} expected  }  before  else
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ( int ) ID ) expected  ;  before  else
+BoundLost	int ID [ ID ] expected  = , ',',  ; ,  asm  or  __attribute__  before  }  token
+BoundRedundant	int ID ( int ID [ ] , int ID ) ; expected identifier or  (  before  {  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdWrongUsage	void ID ( ID , CONST , ID - CONST ) ; expected  )  before numeric constant
+BoundNotMatch	if ( ID % CONST == CONST ) { expected  }  before  else
+IdNoDef	ID = ID / CONST ; ID  undeclared
+IdNoDef	ID = ( ID / CONST ) + CONST ; ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	ID = ID [ ID / CONST ] + ID [ ( ID / CONST ) - CONST ] ; ID  undeclared
+IdNoDef	ID = ( ID [ ( ID / CONST ) - CONST ] + ID [ ID / CONST ] ) / CONST ; ID  undeclared
+APIcallWrongUsage	printf ( STRING , ) expected expression before  )  token
+BoundLost	ID ++ expected  ;  before  }  token
+BoundLost	ID = ID expected  ;  before  }  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+OPDataLost	for ( ID = CONST ; ID <= ; ID ++ , ID = ID ) { expected expression before  ;  token
+BoundLost	ID = ID - CONST expected  ;  before  ID
+NotInclude	printf ( STRING , ID ) ; ? expected expression before  ?  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	{ ID = ID ; } ID  undeclared
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  return
+BoundLost	printf ( STRING , ID ) expected  ;  before  for
+IdNoDef	scanf ( STRING , & ID , & ID , & ID ) ; ID  undeclared
+IdNoDef	for ( ID > CONST ; ID < ID ; ID = ID + CONST ) { ID  undeclared
+BoundRedundant	for ( ID = CONST ; ID <= ID ; ID ++ ; ) expected  )  before  ;  token
+IdNoDef	ID = ID + ID - CONST ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	ID = ID + ID - CONST ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+BoundWrongUsage	for ( ID = CONST ; ID <= ID , ID ++ ) expected  ;  before  )  token
+IdNoDef	for ( ID = CONST ; ID <= ( ID - CONST ) ; ID = ID + CONST ) ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+BoundLost	ID = ID expected  ;  before  ID
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID <= ( ID - CONST ) ; ID ++ ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundRedundant	int ID [ ID ] , ; expected identifier or  (  before  ;  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+OPDataLost	if ( ID [ ID ] == ID [ ID + ] ) expected expression before  ]  token
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	ID = ID + CONST ; ID  undeclared
+IdNoDef	int ID ( int ID [ ID ] ) ID  undeclared here
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  return
+IdNoDef	ID = CONST ; ID  undeclared
+APIcallWrongUsage	scanf ( STRING ; & ID ) ; expected  )  before  ;  token
+OPDataLost	ID = ID ( ID [ ] , ID ) ; expected expression before  ]  token
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	char ID [ ID ] ; ID  undeclared
+BoundLost	ID [ ID ] >= ID [ ID + CONST ] expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID - CONST ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundWrongUsage	for ( ID = ID , ID [ ID ] == ID [ ID ] ; ++ ID ) expected  ;  before  )  token
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	printf ( STRING , ID [ ID ] ) ; ID  undeclared
+IdNoDef	{   ID = ID ; ID  undeclared
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+BoundLost	else printf ( STRING , ID [ ID / CONST ] ) expected  ;  before  return
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+OPDataLost	printf ( STRING , ID ( ID [ ] , ID ) ) ; expected expression before  ]  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+OPDataLost	while ( > CONST ) { expected expression before  >  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	if ( ID [ ID ] > ID [ ID + ID ] ) expected expression before  }  token
+BoundRedundant	int ID , ID , ; expected identifier or  (  before  ;  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	int ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ID [ ID ] == ID [ ID + CONST ] ) ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+BoundRedundant	int ID , ID , ID , ID , ; expected identifier or  (  before  ;  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundRedundant	if ( ID == ( ( ID + CONST ) / CONST ) - ID ) ; ) expected statement before  )  token
+IdNoDef	for ( ID = CONST ; ID <= ID - CONST ; ID = ID + CONST )  { ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	if ( ID == ID ; ID == ID - ID ) expected  )  before  ;  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	{   ID = ID ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ID % ( ID [ CONST ] + ID [ CONST ] + ID [ CONST ] + ID [ CONST ] ) == CONST ) ID  undeclared
+IdNoDef	while ( ID % ID == ID ) ID  undeclared
+BoundLost	ID ++ expected  ;  before  }  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+KeyWordWrongUsage	for ( ID = CONST <= ( ID + CONST ) ; ID ++ ) expected  ;  before  )  token
+KeyWordWrongUsage	if ( ID == CONST ) expected expression before  else
+IdNoDef	ID = ID + ( ID % CONST ) ; ID  undeclared
+IdNoDef	ID = CONST - ID ; ID  undeclared
+BoundWrongUsage	for ( int ID = ID ; ID % ID != CONST , ID ++ ) expected  ;  before  )  token
+IdNoDef	for ( int ID = CONST ; ; ID ++ ) ID  undeclared
+BoundLost	ID = ID % CONST expected  ;  before  ID
+IdNoDef	ID = ID % CONST ; ID  undeclared
+IdNoDef	while ( ID != ID ) ID  undeclared
+BoundLost	scanf ( STRING , & ID , & ID , & ID , & ID ) expected  ;  before  for
+IdNoDef	while ( ID > CONST ) ID  undeclared
+APIcallWrongUsage	printf ( STRING , ) ; expected expression before  )  token
+KeyWordWrongUsage	for ( ID = CONST ; ID ++ ) { expected  ;  before  )  token
+OPWrongUsage	if ( ID % ID == CONST )  / expected expression before  ID  token
+IdNoDef	ID = ( ID % ID ) ; ID  undeclared
+IdNoDef	ID [ ID ] = ID % CONST ; ID  undeclared
+IdNoDef	while ( ( ID % ( ID + ID + ID + ID ) ) != CONST ) ID  undeclared
+IdNoDef	if ( ID % ID == CONST ) { ID  undeclared
+KeyWordWrongUsage	while ( ) { expected expression before  )  token
+BoundLost	ID = ID + ( ID % CONST ) expected  ;  before  ID
+BoundLost	printf ( STRING ) expected  ;  before  while
+BoundLost	ID = CONST expected  ;  before  while
+BoundLost	ID [ ID ] >= CHARST && ID [ ID ] <= CHARST expected  ;  before  for
+IdNoDef	for ( ID = CONST ; ID > CONST ; ID ++ ) ID  undeclared
+BoundLost	if ( ID [ ID ] == ID ( ID ) ) printf ( STRING ) expected  ;  before  return
+IdNoDef	return ID ( ID - CONST ) + ID ( ID - CONST ) ; ID  undeclared
+KeyWordWrongUsage	else expected expression before  }  token
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  while
+BoundLost	ID ++ expected  ;  before  ID
+BoundLost	if ( ID ( ID ) == ID ) { printf ( STRING ) break ; } expected  ;  before  break
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ ) { ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdWrongUsage	if ( int ID ( ID ) == ID ) expected expression before  int
+IdNoDef	else if ( ID == ID [ ID - CONST ] ) return CONST ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) { ID  undeclared
+IdNoDef	if ( ID <= CONST ) ID  undeclared
+IdNoDef	if ( ID == ID [ ID ] ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ )   { ID  undeclared
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  for
+BoundLost	printf ( STRING ) expected  ;  before  else
+OPDataLost	else return ( ID [ ] , ID - CONST , ID ) ; expected expression before  ]  token
+BoundLost	ID ++ expected  ;  before  }  token
+BoundLost	printf ( STRING , ID % CONST ) expected  ;  before  }  token
+IdNoDef	while ( ++ ID < ID ) ID  undeclared
+IdNoDef	if ( ( ID >= ID - ID ) && ( ID <= ID + ID ) ) ID  undeclared
+IdNoDef	for ( ID = ID - ( ID - CONST ) ; ID <= ID + ( ID - CONST ) ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST , ID = ID + CONST ; ID < ID ; ID ++ , ID ++ ) ID  undeclared
+BoundWrongUsage	for ( ID = ID - ID + CONST ; ID <= ID + ID - CONST , ID ++ ) expected  ;  before  )  token
+IdNoDef	for ( ID = CONST ; ID <= CONST ID - CONST ; ID = ID + CONST ) { ID  undeclared
+IdNoDef	ID = CONST ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+OPDataLost	for ( ID = ID - ID ; ID <= ID + ; ID ++ ) expected expression before  ;  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID - CONST ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < ( CONST * ID - CONST ) ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	for ( ID = CONST ; ID ++ ) expected  ;  before  )  token
+BoundNotMatch	} expected declaration or statement at end of input
+APIcallWrongUsage	ID ( STRING ID [ ID ] ) ; expected  )  before  ID
+IdNoDef	ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ID [ ID ] > CONST ) ID  undeclared
+KeyWordWrongUsage	if ID expected  (  before  ID
+OPDataLost	if ( ID == ) expected expression before  )  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdWrongUsage	int ID ( int ID - CONST ) expected  ; , ',' or  )  before  -  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	printf ( STRING , ID ( ID [ ID ] [ CONST ] ) ) ; ID  undeclared
+KeyWordWrongUsage	ID = return ID ( ID - CONST ) + return ID ( ID - CONST ) ; expected expression before  return
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) { ID  undeclared
+IdWrongUsage	ID ( int ID ) ; expected expression before  int
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundLost	ID ( ID == CONST ) expected  ;  before  }  token
+IdWrongUsage	int ID ( int ID - CONST ) expected  ; , ',' or  )  before  -  token
+BoundLost	else ( ID >= CONST ) expected  ;  before  {  token
+IdNoDef	int ID [ ID ] , ID , ID , ID ; ID  undeclared
+KeyWordWrongUsage	for expected  (  before  return
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID / CONST - ID + CONST ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	printf ( STRING ) expected  ;  before  for
+BoundLost	{ printf ( STRING , ID - ID ) expected  ;  before  }  token
+IdNoDef	printf ( STRING , ID % CONST ) ; ID  undeclared
+OPDataLost	printf ( STRING , ( ) % CONST ) ; expected expression before  )  token
+OPWrongUsage	for ( ID = CONST ; ID <= abs ( ( ( ID + CONST ) / CONST ) - ID ) ; ID = ID + CONST )   / STRING expected expression before  ID  token
+IdNoDef	if ( ID < CONST ) ID = - ID ; ID  undeclared
+OPDataLost	printf ( STRING , ID = ) ; expected expression before  )  token
+APIcallWrongUsage	{ printf ( STRING , ) ; } expected expression before  )  token
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+BoundLost	ID ( ID , ID , ID , ID ) expected  ;  before  return
+BoundLost	ID = ID + CONST * ( ID ( ID - CONST ) ) + CONST expected  ;  before  return
+IdNoDef	ID ( ID , ID ) ; ID  undeclared
+BoundLost	ID ( ID , ID ) expected  ;  before  if
+IdNoDef	ID ( ID , ID , ID , ID ) ; ID  undeclared
+IdNoDef	ID ( ID - CONST , ID , ID , ID ) ; ID  undeclared
+BoundLost	ID ( ID - CONST , ID , ID , ID ) expected  ;  before  ID
+BoundLost	ID ( ID , ID ) expected  ;  before  ID
+IdWrongUsage	void ID ( ID , char ID , char ID , char ID ) expected  )  before  CHAR
+IdWrongUsage	void ID ( ID , CHARST , CHARST , CHARST ) ; expected  )  before  ID
+OPWrongUsage	* / expected identifier or  (  before  ID  token
+OPWrongUsage	} expected identifier or  (  before  ID  token
+IdNoDef	ID ( ID [ CONST ] , ID [ CONST ] ) ; ID  undeclared
+IdNoDef	ID ( ID , ID ) ; ID  undeclared
+OPWrongUsage	if ( ID - CONST = > CONST ) { expected expression before  >  token
+BoundLost	ID ( ID - CONST ) expected  ;  before  }  token
+BoundLost	ID ( ID - CONST , ID , ID , ID ) expected  ;  before  }  token
+BoundLost	ID ( ID , ID ) expected  ;  before  }  token
+BoundLost	ID ( CHARST , CHARST ) expected  ;  before  return
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundLost	ID expected  ;  before  return
+BoundLost	ID ( ID - CONST , ID , ID , ID ) expected  ;  before  ID
+KeyWordWrongUsage	else if return ID ( ID , ID - CONST ) - ID [ ID - CONST ] ; expected  (  before  return
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	int ID [ ID ] ; ID  undeclared here
+IdWrongUsage	ID ( ID , ) ; expected expression before  )  token
+IdNoDef	return ID ; ID  undeclared
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	printf ( STRING , return ( ID , ID [ ] ) ) ; expected expression before  return
+KeyWordWrongUsage	ID = ID + return ID ( ID , ID - CONST ) ; expected expression before  return
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+OPDataLost	int ID = ID ( ID [ ] , ID ) ; expected expression before  ]  token
+KeyWordWrongUsage	return ( ID [ ] , ID - CONST ) ; expected expression before  ]  token
+IdNoDef	int ID ( int ID [ ID ] , int ID ) ID  undeclared here
+OPDataLost	return ID [ ID - CONST ] - ID ( ID [ ] , ID - CONST ) ; expected expression before  ]  token
+IdNoDef	return ID - ID ( ID , ID , ID + CONST ) ; ID  undeclared
+OPDataLost	return ID ( ID - CONST , ID [ ] ) - ID [ ID - CONST ] ; expected expression before  ]  token
+BoundLost	ID = ID ( ID , CONST ) expected  ;  before  return
+OPDataLost	long long ID = ID ( ID [ ] , ID - CONST ) - ID [ ID ] ; expected expression before  ]  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	ID ( ID + CONST , ID - CONST ) expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	if ( ID == ID ) return ID ; ID  undeclared
+OPDataLost	} for ( ID = CONST ; ID < ID ; ++ ) expected expression before  )  token
+OPDataLost	return ID [ ] - ID ( CONST + ID , ID - CONST ) ; expected expression before  ]  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundRedundant	if ( ID [ ID ] + ID [ ID ] == ID ) ) expected statement before  )  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+APIcallWrongUsage	scanf ( STRING & , ID [ ID ] ) ; expected expression before  ,  token
+APIcallWrongUsage	printf ( STRING ID [ ID , ID [ ID ] ] ) ; expected  )  before  ID
+BoundRedundant	for ( ID = CONST ; ID < ID - CONST ; ; ID ++ ) expected expression before  ;  token
+IdNoDef	if ( ID = ID + ID ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	ID = CONST ; ID  undeclared
+BoundWrongUsage	for ( ID = CONST ; ID < ID , ID ++ ) expected  ;  before  )  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+APIcallWrongUsage	printf ( STRING , ID [ ID ] ID [ ID ] ) ; expected  )  before  ID
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  for
+IdNoDef	if ( ID [ ID ] + ID [ ID ] == ID ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  for
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  for
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID - CONST ; ID ++ ) ID  undeclared
+IdNoDef	printf ( STRING , ID [ ID ] ) ; ID  undeclared
+IdNoDef	int ID , ID , ID [ ID ] , ID , ID , ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID = ID + CONST ) ID  undeclared
+KeyWordWrongUsage	if ( ID != ID [ ID ] ) && ( ID != - ID [ ID ] ) expected identifier before  (  token
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	if ( ID + ID ) == ID ; expected expression before  ==  token
+IdNoDef	for ( ID = CONST , ID = ID - CONST ; ID <= ID ; ID ++ ) ID  undeclared
+BoundLost	( ID [ ID ] , ID [ ID ] ) expected  ;  before  printf
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	{ for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	if ( ID [ ID ] + ID [ ID ] == ID ) ID  undeclared
+BoundLost	printf ( STRING , ID [ ID ] , ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	while ( ID < ID && ID < ID && ID < ID ) { ID  undeclared
+KeyWordWrongUsage	else expected expression before  }  token
+IdNoDef	ID ++ ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+OPDataLost	if ( ID [ ID ] + ID [ ID ] == ID && ID [ ID ] != ID [ ID ] &&  ) expected expression before  )  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundNotMatch	printf ( STRING , ID [ ID ] , ID [ ID ] ) ; expected  }  before  else
+KeyWordWrongUsage	if ( ( ID [ ID ] + ID [ ID ] ) == ID ) expected expression before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	printf ( ID ) ; ID  undeclared
+NotInclude	int main expected  = , ',',  ; ,  asm  or  __attribute__  before  {  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundRedundant	for ( ID = CONST ; ID < ID ; ID ++ )	if ( ID [ ID ] == ID [ ID + ID - CONST ] ; ) expected  )  before  ;  token
+IdNoDef	if ( ( ID != CONST ) && ( ID [ ID ] != ID [ ID ] ) ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+OPDataLost	ID <= ID && ID <= ; expected expression before  ;  token
+BoundLost	printf ( STRING ) expected  ;  before  return
+BoundLost	printf ( STRING ) expected  ;  before  scanf
+BoundLost	ID ++ expected  ;  before  }  token
+IdNoDef	if ( ID [ CONST ] == ID [ ID ] ) ID  undeclared
+BoundLost	return CONST expected  ;  before  }  token
+IdNoDef	for ( int ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	printf ( ID ) ; ID  undeclared
+BoundWrongUsage	for ( ID = CONST ; ID < ID , ID ++ ) { expected  ;  before  )  token
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+OPWrongUsage	scanf ( STRING , & ID [ ID ) ; expected  ]  before  )  token
+IdNoDef	ID = CONST ; ID  undeclared
+BoundLost	break expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	scanf ( STRING , ID [ ID ] ) ; ID  undeclared
+IdNoDef	if ( ID [ ID ] == ID [ ID ] ) ID  undeclared
+KeyWordWrongUsage	for ( ID = CONST ; ID < ID < ID ++ ) expected  ;  before  )  token
+NotInclude	int main ( CONST ) expected declaration specifiers or  ...  before numeric constant
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	ID [ ID ] = ID ( ID , ID , ID [ ID ] ) ; ID  undeclared
+BoundLost	ID = ID + CONST expected  ;  before  printf
+IdNoDef	if ( ( ID - ID ) == CONST ) ID  undeclared
+BoundWrongUsage	for ( ID = CONST , ID < ID ; ID ++ ) expected  ;  before  )  token
+IdNoDef	ID = ID + CONST ; ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  ID
+BoundLost	ID = ( ID + ID + ID ) / CONST expected  ;  before  printf
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundLost	ID = ( ID + ID + ID ) / CONST expected  ;  before  printf
+BoundLost	float ID = ( ID + ID + ID ) / CONST expected  ,  or  ;  before  printf
+APIcallWrongUsage	printf ( STRING ID , ID , ID ) ; expected  )  before  ID
+IdNoDef	ID = ( ID + ID + ID ) / CONST ; ID  undeclared
+NotInclude	int main { expected  = , ',',  ; ,  asm  or  __attribute__  before  {  token
+BoundLost	printf ( STRING ) expected  ;  before  return
+APIcallWrongUsage	printf ( STRING , STRING , STRING ID , ID , ID ) ; expected  )  before  ID
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+IdNoDef	ID = ID * ID * ID ; ID  undeclared
+TypeWrongUsage	printf ( STRING , ID , ID , float ( ID / CONST ) ) ; expected expression before  float
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	ID = ( ID + ID + ID ) / CONST ; ID  undeclared
+IdNoDef	ID = ( ID * ID * ID ) ; ID  undeclared
+OPDataLost	ID = ( ID * ID * ID * ) ; expected expression before  )  token
+OPWrongUsage	- CONST = < ID <= CONST , - CONST = < ID >= CONST , - CONST <= ID >= CONST ; expected expression before  <  token
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+APIcallWrongUsage	printf ( STRING , STRING ID ) ; expected  )  before  ID
+BoundLost	printf ( STRING ) expected  ;  before  scanf
+NotInclude	int main { expected  = , ',',  ; ,  asm  or  __attribute__  before  {  token
+TypeWrongUsage	ID = ( float ( ID ) ) / CONST ; expected  )  before  ID
+APIcallWrongUsage	scanf ( STRING , % ID , % ID , % ID ) ; expected expression before  %  token
+KeyWordWrongUsage	else if return CONST * ID ( ID - CONST ) + CONST ; } expected  (  before  return
+IdNoDef	printf ( STRING , ID ( ID ) ) ; ID  undeclared
+IdNoDef	return CONST * ID ( ID - CONST ) + CONST ; ID  undeclared
+BoundLost	ID = ID [ ID ] expected  ;  before  printf
+BoundWrongUsage	char CHARST , CHARST , CHARST ; expected identifier or  (  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	return CONST expected  ;  before  else
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID ( ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	return { CONST * ID ( ID - CONST ) + CONST ; } expected expression before  {  token
+NotInclude	} } expected identifier or  (  before  return
+BoundWrongUsage	for ( ID = CONST ; ID < ID , ID ++ ) expected  ;  before  )  token
+IdNoDef	ID = ID + CONST ; ID  undeclared
+BoundLost	ID = CONST * ID ( ID - CONST ) + CONST expected  ;  before  return
+IdNoDef	ID ++ ; ID  undeclared
+BoundLost	printf ( STRING , ID ( ID ) - CONST ) expected  ;  before  }  token
+KeyWordWrongUsage	if ( ID == CONST ) || ( ID == CONST ) expected expression before  ||  token
+IdNoDef	ID = ID ( ID [ ID ] ) ; ID  undeclared
+BoundLost	printf ( STRING , ID , ID ) expected  ;  before  ID
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID ( ID - CONST , ID , ID , ID , ID ) ; ID  undeclared
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID && ID < CONST ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ID >= ID ) ID  undeclared
+BoundLost	ID ( STRING , ID ) expected  ;  before  ID
+IdNoDef	ID [ ID ] = ID [ ID ] ; ID  undeclared
+IdNoDef	if ( ID [ ID ] == ID [ ID ] ) { ID ++ ; break ; } ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	break expected  ;  before  }  token
+BoundLost	ID = ID - CONST expected  ;  before  break
+IdNoDef	for ( ID = CONST , ID = CONST ; ID < ID ; ID ++ , ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	for ( ID = CONST ; ID = CONST ; ID < CONST * ID ; ID = ID + CONST , ID ++ ) expected  )  before  ;  token
+IdNoDef	for ( ID = CONST ; ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundLost	ID = ID - CONST + ID expected  ;  before  }  token
+BoundRedundant	if ( ID [ CONST ] == ID [ ID ] ) ) expected statement before  )  token
+OPDataLost	int ID = ID [ ID - ] - CONST ; expected expression before  ]  token
+BoundRedundant	} ) expected statement before  )  token
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	if ( ID != ID ) ID ++ ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	printf ( STRING , ID , ID ) ; ID  undeclared
+OPDataLost	int ID [ ID ] , ID [ ID + ] ; expected expression before  ]  token
+IdNoDef	if ( ID == CONST ) ID  undeclared
+BoundLost	ID ( ID != CONST ) expected  ;  before  {  token
+OPWrongUsage	scanf ( STRING , & ID ) ; / expected expression before  ID  token
+OPDataLost	ID [ ] = ID + CONST ; expected expression before  ]  token
+IdNoDef	ID = ID ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID ; ID  undeclared
+BoundLost	ID [ CONST ] = CONST expected  ;  before  for
+APIcallWrongUsage	scanf ( STRING , & ID , % ID - CONST , & ID - CONST ) ; expected expression before  %  token
+IdNoDef	ID ++ ; ID  undeclared
+OPDataLost	if ( ID [ CONST ] == [ ID + CONST ] ) expected expression before  [  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+BoundLost	ID ++ expected  ;  before  break
+BoundLost	ID [ ID - CONST ] ++ expected  ;  before  if
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ID [ ID ] == ID [ ID ] ) ID  undeclared
+IdNoDef	for ( int ID = CONST ; ID < CONST ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID + CONST ; ID  undeclared
+KeyWordWrongUsage	if expected  (  before  printf
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID + CONST ; ID  undeclared
+IdNoDef	if ( ID [ ID ] == ID [ ID + ID ] ) ID  undeclared
+BoundLost	ID ++ expected  ;  before  ID
+BoundLost	} while ( ( ID != ID [ CONST ] ) && ( ID != ID [ CONST ] ) ) expected  ;  before  printf
+BoundWrongUsage	for ( ID = ID + CONST , ID >= CONST ; ID -- ) { expected  ;  before  )  token
+IdNoDef	ID = ID - ID ; ID  undeclared
+BoundLost	ID ++ expected  ;  before  }  token
+BoundLost	ID = CONST ; printf ( STRING , ID ) expected  ;  before  break
+IdNoDef	ID = ID - ID + CONST ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= CONST ; ID ++ ) ID  undeclared
+BoundLost	ID [ ID ] = ID expected  ;  before  ID
+OPDataLost	if ( ID == ) expected expression before  )  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	{ if ( ID == ID ) expected expression before  }  token
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	ID = CONST expected  ;  before  }  token
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+IdNoDef	if ( ID [ ID ] == ID ) ID  undeclared
+IdNoDef	ID ++ ; ID  undeclared
+IdNoDef	if ( ID [ CONST ] == ID ) ID  undeclared
+BoundLost	{ ID = CONST expected  ;  before  scanf
+BoundLost	ID = ID ( ID [ CONST ] , ID [ ID ] ) expected  ;  before  }  token
+OPDataLost	for ( int ID = CONST ; < ID < ID ; ID ++ ) expected expression before  <  token
+OPDataLost	printf ( STRING , [ CONST ] , [ CONST ] , [ CONST ] , ID [ CONST ] , ID [ CONST ] ) ; expected expression before  [  token
+OPDataLost	ID [ ] = { CONST , CONST } ; expected expression before  ]  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ , ID = CONST ) ID  undeclared
+BoundLost	ID = ID + CONST expected  ;  before  for
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) { ID  undeclared
+OPDataLost	int ID , ID = CONST , ID , ID , ID = , ID , ID ; expected expression before  ,  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  for
+IdNoDef	if ( ID [ ID ] == ID [ ID ] ) ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundWrongUsage	for ( ID = ID + CONST ; ID <= ID , ID ++ ) expected  ;  before  )  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+OPDataLost	int ID = , ID = CONST ; expected expression before  ,  token
+IdNoDef	ID [ CONST ] = CONST ; ID  undeclared
+BoundRedundant	printf ( STRING , , ID , ID ) ; expected expression before  ,  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+IdNoDef	ID = ID ( ID , ID ) ; ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundLost	ID = ID ( ID [ CONST ] , ID [ ID ] ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID ++ ; ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( int ID = CONST ; ID < ID - ID + CONST ; ID ++ ) ID  undeclared
+BoundWrongUsage	for ( ID = CONST , ID <= ID - ID + CONST ; ID ++ ) expected  ;  before  )  token
+OPDataLost	for ( int ID = CONST ; ID < ID ; ID += ) expected expression before  )  token
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID - ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( int ID = CONST ; ID < ( ID - ID ) ; ID ++ ) ID  undeclared
+IdWrongUsage	ID [ ID ] = int ID ( int ID , int ID ) ; expected expression before  int
+IdNoDef	return ID ; } ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ( ID + CONST - ID ) ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  for
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdWrongUsage	printf ( STRING , ID ID ) ; expected  )  before  ID
+IdNoDef	if ( ID == CONST ) { return ID [ CONST ] ; } ID  undeclared
+OPDataLost	ID ( ID [ ] , ID - CONST ) ; expected expression before  ]  token
+IdNoDef	ID = ID ( CONST , CONST , ID ) ; ID  undeclared
+IdNoDef	return ID [ ID ] ; ID  undeclared
+TypeWrongUsage	printf ( STRING , int ( ID ( ID , ID ) ) ) ; expected expression before  int
+OPDataLost	if ( ID != ) expected expression before  )  token
+IdNoDef	return ( ID [ ID ] + ID [ ID - CONST ] ) ; ID  undeclared
+BoundLost	ID ( ID , ID ) expected  ;  before  return
+IdNoDef	return ID ( ID , ID - CONST ) ; ID  undeclared
+BoundLost	ID = ID + ID [ ID ] expected  ;  before  if
+APIcallWrongUsage	scanf ( STRING , % ID ) ; expected expression before  %  token
+BoundLost	return ID ( ID [ ID ] , ID , ID + CONST ) expected  ;  before  }  token
+BoundLost	return ID [ ID ] + ID ( ID - CONST , ID [ ID - CONST ] ) expected  ;  before  }  token
+IdWrongUsage	int ID ( int ID [ ] , int ID - CONST ) expected  ; , ',' or  )  before  -  token
+IdNoDef	ID = ID + ID [ ID - CONST ] ; ID  undeclared
+BoundLost	return ID [ CONST ] expected  ;  before  if
+IdNoDef	ID = ID + ( ID ( ID , ID - CONST ) ) ; ID  undeclared
+IdNoDef	ID = ID [ ID ] + ID ( ID , CONST , ID - CONST ) ; ID  undeclared
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+APIcallWrongUsage	printf ( STRING ID ( ID ) ) ; expected  )  before  ID
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+APIcallWrongUsage	printf ( STRING ID ) ; expected  )  before  ID
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	if ( ID >= ID ) ID = ID ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+BoundLost	ID = ID expected  ;  before  }  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  if
+APIcallWrongUsage	printf ( STRING ID ) ; expected  )  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+BoundLost	scanf ( STRING , & ID , & ID ) expected  ;  before  for
+BoundLost	ID = ID [ ID ] expected  ;  before  }  token
+IdNoDef	if ( ID > ID ) { ID = ID ; } ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	{ ID = CONST ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundLost	ID = ID + ID expected  ;  before  }  token
+BoundWrongUsage	for ( int ID = CONST ; ID <= ID , ID ++ ) expected  ;  before  )  token
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	printf ( STRING , ID [ ID - CONST ] ) ; ID  undeclared
+IdNoDef	ID = CONST ; ID  undeclared
+APIcallWrongUsage	printf ( STRING , ID [ CONST ] [ CONST ] , ID [ CONST ] ID [ CONST ] ) ; expected  )  before  ID
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+IdNoDef	ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	if ( ) expected expression before  )  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+IdNoDef	for ( ID = CONST ; ID < ( ID - ID ) ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= CONST * ID + CONST ; ID ++ ) ID  undeclared
+BoundWrongUsage	for ( ID = ID ; ID > ID - ID , ID = ID - CONST ) expected  ;  before  )  token
+BoundRedundant	for ( ID = ID ; ID >= CONST ; ID = ID - CONST ; ) expected  )  before  ;  token
+BoundNotMatch	printf ( STRING ) ; expected declaration or statement at end of input
+IdNoDef	{      for ( ID = ID / CONST ; ID >= ID ; ID -- ) ID  undeclared
+BoundRedundant	for ( ID = CONST ; ID < ( ID + CONST ) / CONST ; ID ++ ; ) expected  )  before  ;  token
+IdNoDef	for ( ID = ID ; ID <= ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+OPDataLost	for ( ID = CONST ; <= ID ; ID ++ ) expected expression before  <=  token
+IdNoDef	for ( int ID = CONST ; ID <= ( CONST * ID + CONST ) ; ID ++ ) ID  undeclared
+OPDataLost	for ( ID = ; ID <= ID ; ID = ID ++ ) expected expression before  ;  token
+IdNoDef	{   for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundLost	ID = ID + CONST expected  ;  before  printf
+BoundLost	printf ( STRING , ID , ID ) expected  ;  before  for
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+IdNoDef	else if ( ID == ( ID - CONST ) && ID [ ID ] < ID [ ID - CONST ] ) ID  undeclared
+KeyWordWrongUsage	if ( ) expected expression before  )  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+KeyWordWrongUsage	else ( ID > CONST && ID < ( ID - CONST ) ) expected  ;  before  {  token
+BoundLost	continue expected  ;  before  printf
+APIcallWrongUsage	scanf ( STRING ; ID [ ID ] ) ; expected  )  before  ;  token
+OPDataLost	if ( ID [ ID ] < ID [ ID - CONST ] && ID [ ID ] < [ ID + CONST ] ) expected expression before  [  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	if ( ID = CONST ; break ; ) expected  )  before  ;  token
+BoundLost	printf ( STRING ) expected  ;  before  else
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  for
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	ID = CONST expected  ;  before  while
+IdNoDef	if ( ID == ID - CONST ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundWrongUsage	for ( int ID = CONST ; ID < ID , ID ++ ) expected  ;  before  )  token
+BoundLost	ID = ID + CONST } expected  ;  before  }  token
+KeyWordWrongUsage	for ( ID < ID ; ID ++ ) expected  ;  before  )  token
+IdNoDef	ID = CONST ; ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+BoundLost	ID = ID ( ID [ ID ] , ID [ ID ++ ] ) expected  ;  before  ID
+IdNoDef	if ( ID [ ID ] > ID [ ID ] ) ID  undeclared
+IdNoDef	ID = ID [ CONST ] ; ID  undeclared
+IdNoDef	else if ( ID [ ID ] < ID ) ID  undeclared
+IdNoDef	if ( ID < ID [ ID ] ) ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  printf
+IdNoDef	ID = ID ; ID  undeclared
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  ID
+IdWrongUsage	ID ( int ( ID ) , int ( ID + CONST ) ) ; expected expression before  int
+IdNoDef	for ( ID = CONST ; ID <= ID - CONST ; ID ++ ) { ID  undeclared
+IdNoDef	ID [ ID ] = ID [ ID ] ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+BoundLost	scanf ( STRING , & ID [ CONST ] ) expected  ;  before  ID
+BoundLost	ID = ID expected  ;  before  ID
+BoundWrongUsage	for ( ID = CONST ; ID <= ID , ID ++ ) expected  ;  before  )  token
+APIcallWrongUsage	printf ( STRING , ) ; expected expression before  )  token
+OPDataLost	if ( ID [ ID ] < [ ID ] ) expected expression before  [  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundWrongUsage	for ( ID = CONST , ID < ID ; ID ++ ) { expected  ;  before  )  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	int ID , ID , ID , ID = ID [ CONST ] , ID = ID [ CONST ] ; ID  undeclared
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID ; ID  undeclared
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+BoundLost	ID [ ID ] = ID [ ID ] + CONST expected  ;  before  printf
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	ID [ ID [ ID ] ] = ID [ ID ] expected  ;  before  for
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+OPDataLost	for ( ID = ; ID < ID ; ID ++ ) { expected expression before  ;  token
+BoundRedundant	if ( ID [ ID ] == CONST ; ) expected  )  before  ;  token
+IdNoDef	for ( ID = ID ; ID >= CONST ; ID -- ) ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+OPDataLost	ID [ ID ] = / CONST ; expected expression before  ID  token
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  for
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID [ ID ] ; ID ++ ) ID  undeclared
+APIcallWrongUsage	printf ( STRING , ) ; expected expression before  )  token
+OPDataLost	printf ( STRING , ID [ ] ) ; expected expression before  ]  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	for ( int ID = CONST ; ) expected expression before  )  token
+BoundLost	ID = ID [ ID ] expected  ;  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID [ ID ] ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	for ( int ID = CONST ; ID < ID [ ID ] ) expected  ;  before  )  token
+BoundLost	{  printf ( ID [ ID ] + ID [ ID ] ) expected  ;  before  ID
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	ID = ID + ID ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	for expected  (  before  return
+IdNoDef	for ( ID = ID ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	ID ++ ; ID -- expected  ;  before  ID
+IdNoDef	ID [ ID - CONST ] = ID [ ID - ID ] + ID [ ID - ID ] ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	if ( ID > ID && ID > ID ) { ID  undeclared
+IdNoDef	for ( ID = ID ; ID < ID ( ID , ID ) + CONST ; ID ++ ) { ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundWrongUsage	for ( ID = CONST ; ID < ID ( ID , ID ) , ID ++ ) { expected  ;  before  )  token
+APIcallWrongUsage	{ printf ( STRING ID [ ID ] ) ; } expected  )  before  ID
+IdNoDef	for ( ID = ID - CONST , ID = ID - CONST ; ID >= CONST , ID >= CONST ; -- ID , -- ID ) ID  undeclared
+KeyWordWrongUsage	for ( ID = CONST ; ID < ) expected expression before  )  token
+IdNoDef	ID = ID ; ID  undeclared
+TypeWrongUsage	switch ( char ID ) expected expression before  CHAR
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID ) } expected  ;  before  }  token
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	int ID [ CONST ] , ID [ CONST ] , ID [ ID + CONST ] , ID , ID ; ID  undeclared
+IdNoDef	ID = getchar ( ) ; ID  undeclared
+IdNoDef	ID = ID [ ID - ID ] + ID [ ID - ID ] ; ID  undeclared
+BoundNotMatch	return CONST ; expected declaration or statement at end of input
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+NotInclude	ID [ ID ] = { ID [ CONST ] , ID [ CONST ] , ID [ CONST ] , ID [ CONST ] } ; expected expression before  {  token
+APIcallWrongUsage	printf ( STRING ID [ ID ] ) ; expected  )  before  ID
+BoundWrongUsage	for ( ID = CONST ; ID < ID , ID ++ ) expected  ;  before  )  token
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  scanf
+BoundLost	printf ( STRING , ID + ID ) ; printf ( STRING , ID [ CONST ] + ID [ CONST ] ) expected  ;  before  return
+IdNoDef	for ( ID = ID - CONST ; ID >= CONST ; ID -- ) ID  undeclared
+BoundLost	ID = ID expected  ;  before  for
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+BoundLost	ID ( ID , ID ) expected  ;  before  printf
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	return ID ( * ( ID + ID ) , * ( ID + ID - CONST ) , ID -- , ID ) ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+OPDataLost	ID ( ID [ ] , ID ) ; expected expression before  ]  token
+IdNoDef	ID = ID [ ID - CONST ] * ID ( ID , ID , ID ) ; ID  undeclared
+BoundLost	int ID expected  ;  before  int
+IdNoDef	if ( ID % CONST == CONST ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	int ID [ ID ] , ID ; ID  undeclared
+BoundLost	return ID [ ID ] * ID ( ID , ID + CONST ) expected  ;  before  }  token
+IdNoDef	if ( ID == ID ) ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundLost	ID = ID ( ID , ID ) expected  ;  before  printf
+BoundLost	return ID ( ID , ID - CONST , ID [ ID - CONST ] * ID ) expected  ;  before  }  token
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  while
+IdNoDef	ID = ID * ID ( ID [ ID - CONST ] ) ; ID  undeclared
+BoundLost	ID = ID * ID [ ID ] expected  ;  before  return
+KeyWordWrongUsage	for expected  (  before  {  token
+BoundLost	printf ( STRING , ID ( ID , ID ) ) expected  ;  before  return
+IdNoDef	if ( ID > ID - ID && ID <= ID - ( ID + CONST / CONST ) + ID ) ID  undeclared
+KeyWordWrongUsage	for ( ID = CONST ; ID <= ( ID + CONST ) / CONST ; ID = ID + CONST ; ID = ID - CONST ) expected  )  before  ;  token
+BoundWrongUsage	for ( ID = CONST ; ID < ID / CONST , ID ++ ) expected  ;  before  )  token
+IdNoDef	{ if ( abs ( ID ) + abs ( ID ) < ( CONST + ID ) / CONST ) ID  undeclared
+IdNoDef	for ( ID = ID - ID ; ID >= CONST ; ID -- ) { ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	if ( ( ( ( ID + CONST ) / CONST ) - ID ) <= ID || ID <= ( ( ( ID - CONST ) / CONST ) + ID ) ) expected expression before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+OPDataLost	for ( ID = ID - ; ID >= CONST ; ID -- ) expected expression before  ;  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+OPWrongUsage	if ( ID [ CONST ] = > ID [ CONST ] ) expected expression before  >  token
+KeyWordWrongUsage	else if expected  (  before  {  token
+APIcallWrongUsage	scanf ( STRING , % ID [ ID ] ) ; expected expression before  %  token
+BoundLost	printf ( STRING ) expected  ;  before  else
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+IdNoDef	if ( ID == CONST ) ID  undeclared
+IdNoDef	if ( ( ID [ ID [ ID ] ] > ID [ ID [ ID ] - CONST ] ) && ( ID [ ID [ ID ] ] > ID [ ID [ ID ] + CONST ] ) )  { ID  undeclared
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  for
+IdNoDef	if ( ID [ ID ] >= ID [ ID ] ) ID  undeclared
+NotInclude	} else { expected identifier or  (  before  else
+BoundNotMatch	} expected  }  before  else
+BoundNotMatch	printf ( STRING , ID ) ; } } expected  }  before  else
+OPWrongUsage	else if ( ID = < ID ) printf ( STRING , ID ) ; expected expression before  <  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundRedundant	printf ( STRING , ID ) ; ) } expected statement before  )  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  else
+OPWrongUsage	* / expected expression before  ID  token
+KeyWordWrongUsage	else  ( ( ID < ID ) && ( ID > ID ) ) expected  ;  before  {  token
+KeyWordWrongUsage	else ( ID == ID ) { expected  ;  before  {  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+NotInclude	} expected identifier or  (  before  else
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+KeyWordWrongUsage	ID ( ID == ID ) expected  ;  before  {  token
+BoundNotMatch	else if ( ( ( ID < ID ) && ( ID > ID ) ) || ( ID > ID ) && ( ID < ID ) ) ) expected statement before  )  token
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+OPWrongUsage	for ( ID = CONST ; ID = < ID ; ID ++ ) { scanf ( STRING , & ID [ ID ] ) ; printf ( STRING , ID [ ID ] ) ; } expected expression before  <  token
+KeyWordWrongUsage	else ( ID >= ID ) { expected  ;  before  {  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) { ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	int ID , ID , ID ; ID ; ID  undeclared
+BoundLost	ID [ ID + ID ] = ID expected  ;  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+APIcallWrongUsage	ID [ ID + ID ] = ID ; printf ( STRING ; ID [ ID + ID ] ) ; expected  )  before  ;  token
+BoundLost	ID = ID ( ID , ID ) expected  ;  before  }  token
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	printf ( STRING , ID [ ID ] ) ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID , & ID ) ; ID  undeclared
+APIcallWrongUsage	printf ( STRING ; ID ) ; expected  )  before  ;  token
+OPWrongUsage	if ( ID = > ID ) expected expression before  >  token
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+BoundNotMatch	if ( ID == CONST ) { printf ( STRING , ID [ CONST ] ) ; expected  }  before  else
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	for ( ID = ID - CONST ; ID < ( ID - ID ) ; ID -- ) ID  undeclared
+IdNoDef	for ( ID = ID ; ID > CONST ; ID -- ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	for ( ID = ID - CONST ; ID >= ID - ID ; ID -- ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+OPDataLost	ID + = ID [ ID ] ; expected expression before  =  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+OPWrongUsage	if ( ID = < ID ) { expected expression before  <  token
+BoundRedundant	int ID , ID , ID [ CONST ] , ; expected identifier or  (  before  ;  token
+OPDataLost	ID [ ID ] = ID + ID [ ID - CONST ] - [ ID - ID - CONST ] ; expected expression before  [  token
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID = ID + CONST ) ID  undeclared
+APIcallWrongUsage	printf ( STRING , ) ; expected expression before  )  token
+OPDataLost	ID [ ID ] = expected expression before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+OPWrongUsage	for ( int ID = ID ; ID < ID ; ID ++ CONST ) expected  )  before numeric constant
+BoundLost	ID = CONST ? printf ( STRING ) : printf ( STRING ) expected  ;  before  return
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ID [ ID ] != ID [ ID ] ) ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	printf ( STRING , ID , ID , ID ) expected  ;  before  }  token
+BoundLost	printf ( STRING ) expected  ;  before  return
+OPDataLost	ID = ID ( ID , ID [ ] ) ; expected expression before  ]  token
+IdNoDef	{ if ( ID [ ID ] == ID [ ID ] ) ID  undeclared
+IdNoDef	if ( ID != ID && ID [ ID ] == ID [ ID ] ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	for ( ID != ID ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ID [ ID ] != ID [ ID ] ) ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	ID == ID expected  ;  before  if
+OPDataLost	printf ( STRING , ID [ ] ) ; expected expression before  ]  token
+BoundLost	ID = ID + CONST expected  ;  before  }  token
+TypeWrongUsage	ID [ ID ] = int ( ID ) % CONST ; expected expression before  int
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+BoundWrongUsage	for ( ID = CONST ; ID <= ID , ID ++ ) { expected  ;  before  )  token
+BoundLost	ID = ID + ( ( ID % CONST ) - CONST ) expected  ;  before  ID
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID / CONST ; ID  undeclared
+IdNoDef	while ( ID > CONST ) { ID  undeclared
+IdNoDef	if ( ID == ID ) ID  undeclared
+IdNoDef	ID = ID ( ID ) ; ID  undeclared
+KeyWordWrongUsage	if ( ID != ID ) else printf ( STRING ) ; expected expression before  else
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID ; ID  undeclared
+OPWrongUsage	for ( ID = CONST ; ID >= CONST ; ID = -- ) { expected expression before  )  token
+IdNoDef	ID = ID ; ID  undeclared
+APIcallWrongUsage	scanf ( STRING ; ID ) ; expected  )  before  ;  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ID == ID ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID != CONST ; ID ++ ) ID  undeclared
+BoundNotMatch	if ( ID [ ID ] != ID [ ( ID + CONST - ID ] ) { expected  )  before  ]  token
+BoundLost	ID = ID expected  ;  before  ID
+BoundLost	ID = ID + ID expected  ;  before  ID
+IdNoDef	ID [ ID ] = ID [ ID ] ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ID == ID ) ID  undeclared
+BoundLost	ID = ID [ ID ] expected  ;  before  }  token
+BoundLost	ID = ID + CONST expected  ;  before  ID
+IdNoDef	if ( ID == ID % ID ) ID  undeclared
+APIcallWrongUsage	printf ( STRING ID ) ; expected  )  before  ID
+BoundWrongUsage	for ( ID = CONST ; ID < ID : ID ++ ) expected  ;  before  :  token
+BoundWrongUsage	printf ( STRING ) : expected  ;  before  :  token
+IdNoDef	for ( ID = CONST ; ID < ID / CONST ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID % CONST ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+BoundRedundant	} expected identifier or  (  before  }  token
+IdNoDef	ID = ID + ID * CONST ; ID  undeclared
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+TypeWrongUsage	if ( ID [ ID ] != int ) expected expression before  int
+IdNoDef	if ( ID [ ID ] == ID [ ( ID - ID ) ] ) ID  undeclared
+BoundLost	else ( ( ID == ID || ID == ID ) && ( ID >= ID && ID <= ID ) ) expected  ;  before  printf
+BoundLost	printf ( STRING ) expected  ;  before  return
+IdNoDef	else if ( ( ID == ID || ID == ID ) && ( ID >= ID && ID <= ID ) ) ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+NotInclude	( ID < ID ) ? ( ID = ID , ID = ID ; ) : ( ID = ID , ID = ID ) ; expected  )  before  ;  token
+IdNoDef	ID = ID + ID ; ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  return
+BoundWrongUsage	printf ( STRING , ID ) : expected  ;  before  :  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	else ( ID > ID || ID > ID ) expected  ;  before  printf
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+KeyWordWrongUsage	else if ( ( ( ID > ID && ID < ID ) || ( ID > ID && ID < ID ) ) && ( ID == ID || ID == ID ) ) || ( ( ( ID > ID && ID < ID ) || ( ID > ID && ID < ID ) ) && ( ID == ID || ID == ID ) ) expected expression before  ||  token
+BoundLost	else printf ( STRING ) expected  ;  before  return
+KeyWordWrongUsage	if ( ID <= ID && ID <= ID && ID == ID ) || ( ID <= ID && ID <= ID && ID == ID ) || ( ID <= ID && ID <= ID && ID == ID ) || ( ID <= ID && ID <= ID && ID == ID ) expected expression before  ||  token
+OPWrongUsage	if ( ( ( ( ID == ID ) || ( ID == ID ) ) && ( ( ID > ID ) && ( ID <= ID ) ) ) || ( ( ( ID == ID ) || ( ID == ID ) ) && ( ( ID = > ID ) && ( ID < ID ) ) ) ) expected expression before  >  token
+KeyWordWrongUsage	if ( ( ID == ID && ( ( ID >= ID && ID <= ID ) || ( ID <= ID && ID >= ID ) ) ) || ( ID == ID && ( ( ID >= ID && ID <= ID ) || ( ID <= ID && ID >= ID ) ) ) ) expected expression before  else
+BoundLost	else if ( ( ID == ID || ID == ID ) && ( ID == ID || ID == ID ) ) { printf ( STRING ) } expected  ;  before  }  token
+BoundLost	printf ( STRING ) expected  ;  before  else
+BoundLost	printf ( STRING ) expected  ;  before  else
+BoundLost	ID = CONST expected  ;  before  for
+APIcallWrongUsage	scanf ( STRING , % ID ) ; expected expression before  %  token
+IdWrongUsage	int ( int ID , int ID [ ] , int ) { int ID = CONST ; for ( ID = CONST ; ID < ID ; ++ ID ) expected identifier or  (  before  int
+BoundRedundant	if ( ID != ID [ ID ] ; ) { ID ++ ; } expected  )  before  ;  token
+IdNoDef	printf ( STRING , ID [ ID ] ) ; ID  undeclared
+IdNoDef	int ID , ID [ ID ] , ID = CONST , ID = CONST ; ID  undeclared
+BoundRedundant	if ( ID [ ID ] == ID ) ) { ID ++ ; } expected statement before  )  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	{ if ( ID [ ID ] == ID [ ID [ ID ] ] ) ID  undeclared
+IdNoDef	if ( ID == ID ) { ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+APIcallWrongUsage	scanf ( STRING , & ID [ ID ] , & / , ) ; expected expression before  ID  token
+IdNoDef	for ( ID = CONST ; ID < ID && ID != ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ID [ ID ] == ID [ ID ] ) ID ++ ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID ; ID ++ ) { ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+OPWrongUsage	if ( ID [ ID ] = < ID ) expected expression before  <  token
+IdNoDef	if ( ID [ ID ] != ID ) { ID  undeclared
+BoundLost	{ ID = CONST expected  ;  before  if
+NotInclude	if ( ID != ( int ) , ) expected expression before  ,  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundLost	{ printf ( STRING , ID [ ID ] ) } expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+OPWrongUsage	if ( ( ID + ID ) = < ID || ( ID + ID ) = < ID || ( ID + ID ) = < ID ) expected expression before  <  token
+KeyWordWrongUsage	else if { printf ( STRING ) ; } expected  (  before  {  token
+BoundNotMatch	} expected  }  before  else
+KeyWordWrongUsage	if else { expected  (  before  else
+BoundLost	if ( ( ID + ID <= ID ) || ( ID + ID <= ID ) || ( ID + ID <= ID ) ) printf ( STRING ) break ; expected  ;  before  break
+KeyWordWrongUsage	else ( ) expected expression before  )  token
+IdNoDef	return ID ; ID  undeclared
+OPWrongUsage	if ( ID + ID = < ID || ID + ID = < ID || ID + ID = < ID ) expected expression before  <  token
+KeyWordWrongUsage	else ( ( ID * ID + ID * ID ) < ID * ID ) { expected  ;  before  {  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	printf ( STRING ) expected  ;  before  return
+OPDataLost	if ( ID + ID <= ID || ID + ID <= ID || ID + ID <= ID || ) expected expression before  )  token
+BoundLost	printf ( STRING ) expected  ;  before  return
+BoundNotMatch	} expected  }  before  else
+KeyWordWrongUsage	if ( ( ID + ID ) > ID ) && ( ( ID + ID ) > ID ) && ( ( ID + ID ) > ID ) expected identifier before  (  token
+OPWrongUsage	if ( ( ID + ID ) = < ID || ( ID + ID ) = < ID || ( ID + ID ) = < ID ) { expected expression before  <  token
+OPWrongUsage	if ( ( ID + ID ) = < ID ) expected expression before  <  token
+BoundLost	if ( ID >= ID && ID >= ID ) { ID = CONST } expected  ;  before  }  token
+KeyWordWrongUsage	if ( ( ( ( ID * ID ) + ( ID * ID ) ) - ( ID * ID ) ) < CONST ) || ( ( ( ID * ID ) + ( ID * ID ) - ( ID * ID ) ) < CONST ) || ( ( ( ID * ID ) + ( ID * ID ) - ( ID * ID ) ) < CONST ) expected expression before  ||  token
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	if ( ID * ID + ID * ID < ID * ID || ID * ID + ID * ID < ID * ID || ID * ID * + ID * ID < ID * ID ) expected expression before  }  token
+KeyWordWrongUsage	else ( ( ID * ID ) + ( ID * ID ) == ( ID * ID ) ) expected  ;  before  {  token
+BoundLost	else printf ( STRING ) expected  ;  before  return
+BoundLost	} while ( ( ID != CONST ) && ( ID != CONST ) && ( ID != CONST ) ) expected  ;  before  if
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	{ printf ( STRING ) } expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID , & ID ) ; ID  undeclared
+IdNoDef	if ( ID ( ID , ID , CONST , CONST , ID ) ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	ID ( ID + CONST , ID - CONST , ID - ID [ CONST ] ) expected  ;  before  if
+BoundLost	ID ( ID , ID , ID ) expected  ;  before  return
+IdNoDef	return ID == ID ; ID  undeclared
+BoundLost	return ( ID - CONST , ID , ID + CONST , ID + ID [ CONST ] ) || ( ID - CONST , ID , ID + CONST , ID ) expected  ;  before  }  token
+IdNoDef	ID = ID ( ID , ID , ID , CONST , CONST ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID ( ID , ID , ID ) ; ID  undeclared
+BoundLost	return ( ID ( ID , ID + CONST , ID , ID ) || ID ( ID , ID + CONST , ID , ID + ID [ ID ] ) ) expected  ;  before  }  token
+BoundLost	ID [ ID ] = ID expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID , & ID ) ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID , & ID ) ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID - ID [ ID ] ; ID  undeclared
+IdNoDef	for ( int ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundLost	if ( ID == ID ) { printf ( STRING ) return CONST ; } expected  ;  before  return
+IdNoDef	ID ; ID  undeclared
+BoundLost	return ID ( ID , ID , ID + ID [ ID ] , ID + CONST ) + ID ( ID , ID , ID , ID + CONST ) expected  ;  before  }  token
+IdNoDef	ID = ID ( ID , CONST , ID - CONST , ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  return
+IdNoDef	float ID = ID / ( ID * ID ) ; ID  undeclared
+BoundLost	scanf ( STRING , & ID , & ID ) expected  ;  before  printf
+BoundLost	ID = STRING expected  ;  before  return
+BoundLost	printf ( STRING , ID , ID ) expected  ;  before  ID
+BoundLost	ID = ID / CONST expected  ;  before  ID
+OPWrongUsage	else if ( ID = > CONST ) { printf ( STRING ) ; } expected expression before  >  token
+APIcallWrongUsage	printf ( STRING ID , STRING ID : ID = STRING , ID , ID , ID ) ; expected  )  before  ID
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+IdNoDef	ID = ID / CONST ; ID  undeclared
+BoundLost	ID = ID * CONST expected  ;  before  ID
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+IdNoDef	ID = ID / ( ID * ID ) ; ID  undeclared
+IdNoDef	printf ( STRING , ID , ID , ID ) ; ID  undeclared
+NotInclude	else if ( ID . = CONST && ID < CONST ) expected identifier before  =  token
+BoundRedundant	} expected identifier or  (  before  }  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundLost	scanf ( STRING , & ID , & ID , & ID ) expected  ;  before  ID
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	if ( ID <= ID ) ID  undeclared
+BoundRedundant	else if ( ( ( ID <= ID ) && ( ID <= ID ) ) || ( ( ID <= ID ) && ( ID <= ID ) ) ) ) expected statement before  )  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+KeyWordWrongUsage	if ( ( ID >= ID ) && ( ID <= ID ) ) || ( ( ID <= ID ) && ( ID >= ID ) ) { expected expression before  ||  token
+APIcallWrongUsage	{ printf ( STRING ID ) ; } } expected  )  before  ID
+BoundLost	printf ( STRING ) expected  ;  before  if
+BoundLost	printf ( STRING , ID ) expected  ;  before  return
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected  }  before  else
+KeyWordWrongUsage	if ( ID <= ID && ID <= ID ) || ( ID <= ID && ID <= ID ) expected expression before  ||  token
+OPLost	printf ( STRING , ( ( ID + ID + ID ) * CONST / CONST + ( ID + ID + ID ) CONST / CONST ) ) ; expected  )  before numeric constant
+BoundLost	( ( ( ID >= ID ) && ( ID <= ID ) ) || ( ( ID >= ID ) && ( ID <= ID ) ) ) expected  ;  before  {  token
+IdNoDef	scanf ( STRING , & ID , & ID , & ID , & ID , & ID , & ID ) ; ID  undeclared
+KeyWordWrongUsage	else ( ( ID >= ID && ID >= ID ) || ( ID >= ID && ID >= ID ) ) expected  ;  before  {  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+OPWrongUsage	if ( ID [ ID ] != = ID [ ID ] ) expected expression before  =  token
+KeyWordWrongUsage	if ( ID [ ID ] == ID [ ID ] ) expected expression before  }  token
+BoundWrongUsage	for ( ID = CONST , ID <= CONST * ID ; ID ++ ) { expected  ;  before  )  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	ID = ID - ID ; ID  undeclared
+BoundLost	ID = ID ( ID , ID ) expected  ;  before  }  token
+BoundWrongUsage	for ( ID = CONST ; ID < ID , ID ++ ) expected  ;  before  )  token
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+IdNoDef	if ( ( ID - ID ) < ID ) ID  undeclared
+BoundLost	ID = ID - ID ; printf ( STRING , ID ) expected  ;  before  }  token
+IdNoDef	ID = CONST ; ID  undeclared
+OPDataLost	ID = ; expected expression before  ;  token
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	ID = ID + CONST ; ID  undeclared
+IdNoDef	for ( ID = ID + CONST ; ID < CONST * ID ; ID ++ ) ID  undeclared
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	int ID = ID [ ID ] ; ID  undeclared
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	for ( int ID = ID ; ID < CONST * ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID [ CONST ] ; ID  undeclared
+BoundLost	ID ++ expected  ;  before  }  token
+BoundLost	ID ++ expected  ;  before  if
+IdNoDef	for ( ID = ID + CONST ; ID < CONST * ID ; ID ++ ) ID  undeclared
+IdNoDef	printf ( STRING , ID [ CONST ] ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < CONST * ID ; ID ++ ) { ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	ID = ID + CONST ; ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	ID = ID expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID = ID + CONST ) { ID  undeclared
+IdNoDef	ID = ID - ( ID - ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID - CONST ; ID ++ ) ID  undeclared
+BoundNotMatch	if ( ID == ID - CONST ) { printf ( STRING ) ; expected  }  before  else
+BoundRedundant	int ID , ID , ID , ID , ID , ; expected identifier or  (  before  ;  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	ID = ID - ID ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+APIcallWrongUsage	printf ( STRING ID ) ; expected  )  before  ID
+IdNoDef	for ( ID = CONST ; ( ID > CONST && ID < ID - CONST ) ; ID ++ ) { ID  undeclared
+IdNoDef	int ID [ ID ] ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	scanf ( STRING , ID [ ID ] ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID , & ID ) ; ID  undeclared
+IdNoDef	ID = ID ; ID  undeclared
+IdNoDef	if ( ID >= ID ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  if
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	if ( ID == CONST || ID == CONST || ID == CONST ) printf ( STRING ) expected  ;  before  if
+BoundLost	printf ( STRING ) expected  ;  before  else
+KeyWordWrongUsage	else ( ID > ID && ID > ID ) expected  ;  before  {  token
+BoundRedundant	if ( ID == CONST ; ) { printf ( STRING ) ; } expected  )  before  ;  token
+KeyWordWrongUsage	ID ( ID + ID >= ID ) || ( ID + ID >= ID ) || ( ID + ID >= ID ) { expected  ;  before  {  token
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+OPDataLost	if ( ID = ID * ID + ID * ID || ) expected expression before  )  token
+OPDataLost	if ( ( ID * ID + ID * ID == ID * ID * ) || ( ID * ID + ID * ID == ID * ID ) || ( ID * ID + ID * ID == ID * ID ) ) { expected expression before  )  token
+KeyWordWrongUsage	else if expected  (  before  printf
+IdNoDef	if ( ( ID * ID = ID * ID + ID * ID ) || ( ID * ID + ID * ID = ID * ID ) || ( ID * ID = ID * ID + ID * ID ) ) ID  undeclared
+BoundRedundant	int ID ( long int ID [ ] , int ID , int ID , int ID ) ; expected identifier or  (  before  {  token
+BoundLost	ID = ID ( ID , ID , ID ) expected  ;  before  if
+IdNoDef	if ( ID + ID < ID ) return ID ( ID , ID , ID + CONST , ID ) ; ID  undeclared
+IdNoDef	else if ( ( ID > ID ) && ID != ID ) ID  undeclared
+BoundRedundant	if ( ID ( ID , ID - CONST , ID ) == CONST ) ) expected statement before  )  token
+IdNoDef	ID = ID + ID [ ID ] + ID ( ID - CONST , ID , ID ) ; ID  undeclared
+IdNoDef	if ( ID == CONST ) { if ( ID [ ID - CONST ] == ID ) return CONST ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID ( ID , ID , ID , ID - ID ) ; ID  undeclared
+KeyWordWrongUsage	for ( ID = CONST ; ID < ID ; ID ++ ) expected expression before  }  token
+IdNoDef	if ( ID == ID - CONST ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	int ID expected  = , ',',  ; ,  asm  or  __attribute__  before  for
+BoundLost	return ID ( ID , ID - CONST , ID + ID [ ID - CONST ] , ID ) expected  ;  before  }  token
+BoundLost	return ( ID , ID + CONST , ID , ID ) expected  ;  before  }  token
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+OPDataLost	return ID ( ID [ ] , ( ID - CONST ) , ID ) ; expected expression before  ]  token
+IdNoDef	if ( ID == CONST ) ID  undeclared
+BoundRedundant	} expected identifier or  (  before  {  token
+IdNoDef	return ( ID == ID ) ; ID  undeclared
+IdNoDef	ID = ID ( ID [ ID ] , ID [ ID ] ) ; ID  undeclared
+IdNoDef	return ( ID ( ID , ID + CONST , ID , ID , ID ) || ID ( ID , ID + CONST , ID , ID + ID [ ID ] , ID ) ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+OPLost	ID [ ID ] [ ID - CONST ] = ( ID / ID [ ID - CONST ] ) ID ( ID - ID [ ID - CONST ] , ID - CONST ) + ID ( ID , ID - CONST ) ; expected  ;  before  ID
+IdNoDef	printf ( STRING , ID ) ; ID  undeclared
+BoundLost	ID = ( ID / CONST ) * CONST expected  ;  before  return
+BoundLost	return ( ID ( CONST , CONST ) * ID ( ID % CONST , CONST ) ) expected  ;  before  }  token
+OPDataLost	ID = ID ( ID , CONST ) + expected expression before  return
+BoundLost	ID = ID ( ID , CONST ) expected  ;  before  printf
+IdNoDef	ID ( ID , CONST ) ; ID  undeclared
+IdNoDef	for ( int ID = CONST ; ID < CONST ; ID ++ ) ID  undeclared
+IdNoDef	ID = ( ID ( ID - CONST ) || ID ( ID - CONST ) || ID ( ID - CONST ) ) ; ID  undeclared
+IdWrongUsage	long int ID ( ID , CONST ) ; expected  )  before numeric constant
+IdNoDef	if ( ID == CONST ) { ID  undeclared
+IdNoDef	printf ( STRING , ID ( ID , CONST ) ) ; ID  undeclared
+IdNoDef	ID [ ID ] [ ID ] = - CONST ; ID  undeclared
+OPDataLost	printf ( STRING , ID [ CONST ] + ID [ CONST ] + ) ; expected expression before  )  token
+BoundLost	return ID ( ID , ID - CONST , ID ) + ID ( ID , ID , ID - ID [ ID ] ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = ID / CONST ; ID  undeclared
+BoundLost	ID [ CONST ] [ ID ] = ID [ CONST ] ID [ ID ] ; expected  ;  before  ID
+OPDataLost	ID [ ID ] [ ID ] = ID ( ID - CONST , CONST ) + ID ( ID - CONST , CONST ) + ; expected expression before  ;  token
+BoundLost	case CONST : ID = ID + CONST expected  ;  before  break
+BoundWrongUsage	return ( * ( ID [ ID ] + ID = ) CONST ) ; expected expression before  )  token
+KeyWordWrongUsage	for ( ID < ID ; ID ++ ) expected  ;  before  )  token
+BoundNotMatch	} expected declaration or statement at end of input
+OPWrongUsage	if ( ID != = CONST ) { expected expression before  =  token
+IdNoDef	for ( ID = CONST ; ID <= ID + CONST - ID ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	else if expected  (  before  {  token
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID <= ID + CONST ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	int ID [ CONST * ID ] ; ID  undeclared
+BoundWrongUsage	for ( int ID = CONST ; ID < ID , ID ++ ) { expected  ;  before  )  token
+IdNoDef	while ( ID [ ID ] - ID [ ID + ID ] == CONST ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < CONST * ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < CONST * ID - CONST ; ID ++ ) ID  undeclared
+KeyWordWrongUsage	while ( ID == ID ; ID < CONST * ID ; ID ++ ) expected  )  before  ;  token
+BoundLost	printf expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	for ( ID = CONST ; ID <= ID - CONST ) expected  ;  before  )  token
+IdNoDef	ID = ID ; ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  break
+APIcallWrongUsage	scanf ( % ID , & ID [ ID ] ) ; expected expression before  %  token
+KeyWordWrongUsage	if ( ID == CONST ) ( ID > ( ID [ CONST ] - ID [ CONST ] ) ) expected  ;  before  {  token
+IdNoDef	for ( ID = CONST ; ID < CONST * ID ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < CONST * ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+BoundLost	ID = ID expected  ;  before  }  token
+BoundLost	scanf ( STRING , & ID ) expected  ;  before  for
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+IdNoDef	if ( ID [ ID ] <= ID ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	else printf ( STRING ) expected  ;  before  }  token
+KeyWordWrongUsage	for ( ID = CONST ; ID <= ID - CONST ) expected  ;  before  )  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ ) ID  undeclared
+IdNoDef	{ ID == CONST ; ID ; } ID  undeclared
+IdNoDef	ID = - CONST ; ID  undeclared
+APIcallWrongUsage	scanf ( STRING ID [ ID ] ) ; expected  )  before  ID
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING , ID [ ID ] ) } expected  ;  before  }  token
+BoundRedundant	} expected identifier or  (  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	ID = ID [ ID ] ; ID  undeclared
+BoundLost	return ( CONST * ID + CONST ) * ID ( ID - CONST ) / ( ID + CONST ) expected  ;  before  }  token
+IdNoDef	ID += ID ( ID ) + ID ( ID - ID ) ; ID  undeclared
+IdWrongUsage	if ( ID [ ID ] == int ( ID ( ID ) ) ) expected expression before  int
+IdWrongUsage	int ID ( int ID + CONST ) expected  ; , ',' or  )  before  +  token
+IdWrongUsage	void ID ( int ID - CONST ) expected  ; , ',' or  )  before  -  token
+IdNoDef	ID = ID ( ID ) * ID ( ID - ID - CONST ) ; ID  undeclared
+KeyWordWrongUsage	if ( ID == CONST || ID == CONST ) expected expression before  }  token
+IdNoDef	return ( CONST * ( CONST * ID + CONST ) / ( ID + CONST ) ) ; ID  undeclared
+IdNoDef	ID [ ID ] = ID ( ID ) ; ID  undeclared
+IdNoDef	{ ID = ID ; } ID  undeclared
+OPWrongUsage	if ( ( ID == CONST ) ! ! ( ID == CONST ) ! ! ( ID == CONST ) ) expected  )  before  !  token
+BoundNotMatch	} expected  }  before  else
+BoundNotMatch	} expected declaration or statement at end of input
+APIcallWrongUsage	scanf ( STRING , & ID , % ID , % ID ) ; expected expression before  %  token
+BoundNotMatch	} expected declaration or statement at end of input
+KeyWordWrongUsage	ID ( ( ID * ID + ID * ID ) < ( ID * ID ) || ( ID * ID + ID * ID ) < ( ID * ID ) || ( ID * ID + ID * ID ) < ( ID * ID ) ) && ( ( ID + ID > ID ) && ( ID + ID > ID ) && ( ID + ID > ID ) ) expected  ;  before  {  token
+BoundLost	printf ( STRING ) expected  ;  before  return
+BoundLost	printf ( STRING ) expected  ;  before  else
+KeyWordWrongUsage	else if ( ( ID + ID ) < ID ) || ( ( ID + ID ) < ID ) || ( ( ID + ID ) < ID ) expected expression before  ||  token
+APIcallWrongUsage	scanf ( % ID % ID % ID , & ID , & ID , & ID ) ; expected expression before  %  token
+KeyWordWrongUsage	else ( ( ID * ID + ID * ID <= ID * ID ) && ( ID * ID + ID * ID <= ID * ID ) && ( ID * ID + ID * ID <= ID * ID ) && ( ID + ID > ID ) && ( ID + ID > ID ) && ( ID + ID > ID ) )   printf ( STRING ) ; expected  ;  before  printf
+BoundLost	else printf ( STRING ) } expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundRedundant	int ID , ID , ID , ; expected identifier or  (  before  ;  token
+APIcallWrongUsage	scanf { STRING , & ID , & ID , & ID } expected  ;  before  {  token
+BoundLost	ID = ( ( ID * ID ) + ( ID * ID ) - ( ID * ID ) ) * CONST / ( CONST * ID * ID ) expected  ;  before  ID
+KeyWordWrongUsage	if ( ID * ID ) < ( ID * ID ) + ( ID * ID ) expected expression before  <  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected  }  before  else
+NotInclude	if ( ( ( ( ID + ID ) > ID ) && ( ( ID + ID ) > ID ) && ( ( ID + ID ) > ID ) ) ! ) expected  )  before  !  token
+KeyWordWrongUsage	} expected identifier or  (  before  else
+KeyWordWrongUsage	if ( ( ID + ID ) > ID ) && ( ( ID + ID ) > ID ) && ( ( ID + ID ) > ID ) expected identifier before  (  token
+BoundLost	printf ( STRING , ID ) expected  ;  before  }  token
+BoundLost	printf ( STRING , ID , ID [ ID ] ) expected  ;  before  }  token
+IdNoDef	scanf ( STRING , & ID ) ; ID  undeclared
+IdNoDef	if ( ID == CONST * ID ) printf ( STRING , ID ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	if ( ID != ID [ ID ] - CHARST ) { ID  undeclared
+BoundLost	ID = ID [ ID ] ; ID = CONST expected  ;  before  for
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < ID ; ID = ID + CONST ) { ID  undeclared
+IdNoDef	for ( int ID = ID ; ID < ID ; ID ++ ) ID  undeclared
+BoundLost	printf ( STRING ) expected  ;  before  }  token
+IdNoDef	if ( ID != ID [ ID ] ) ID  undeclared
+OPWrongUsage	for ( ID = CONST ; ID = < ID ; ID ++ ) expected expression before  <  token
+BoundLost	ID [ ID ] = getchar ( ) expected  ;  before  }  token
+TypeWrongUsage	if ( ID [ ID ] > CHARST ) expected expression before  int
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+BoundLost	ID ++ expected  ;  before  }  token
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+IdNoDef	if ( ID == CONST ) ID  undeclared
+BoundLost	ID += CONST expected  ;  before  }  token
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  }  token
+APIcallWrongUsage	printf ( STRING ID [ ID ] ) ; expected  )  before  ID
+IdNoDef	for ( ID = CONST ; ID < ID ; ID = ID + CONST ) ID  undeclared
+IdNoDef	scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+APIcallWrongUsage	} ID ( % ID , ID ) ; expected expression before  %  token
+IdNoDef	{ scanf ( STRING , & ID [ ID ] ) ; } ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	ID = CONST expected  ;  before  for
+TypeWrongUsage	if ( ID == int ID [ CONST * ID ] ) expected expression before  int
+BoundLost	scanf ( STRING , & ID [ ID ] ) expected  ;  before  }  token
+BoundNotMatch	} expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	scanf ( STRING , ID [ ID ] ) ; ID  undeclared
+IdNoDef	ID = ID + CONST ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < CONST * ID - CONST ; ID ++ ) { ID  undeclared
+BoundNotMatch	return CONST ; expected declaration or statement at end of input
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	ID [ ID ] = CONST expected  ;  before  }  token
+IdNoDef	{ ID = ID [ ID ] ; ID = CONST ; ID  undeclared
+OPDataLost	ID = ID ( ID , ID [ ] , ID ) ; expected expression before  ]  token
+OPWrongUsage	for ( ID = CONST ; ID = < ID ; ID ++ ) expected expression before  <  token
+KeyWordWrongUsage	ID = return ID ( ID , CONST ) + ID ( ID , CONST ) + ID ( ID , CONST ) ; expected expression before  return
+IdNoDef	ID [ CONST ] = ID ; ID  undeclared
+IdNoDef	ID ( ID , CONST ) ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID <= ID + CONST ; ID ++ ) ID  undeclared
+IdNoDef	if ( ( ID - CONST * ID - CONST * ID ) <= CONST ) { ID  undeclared
+IdNoDef	return ID ; ID  undeclared
+OPWrongUsage	if ( ID = < CONST ) expected expression before  <  token
+KeyWordWrongUsage	if ( ID - ( CONST * ID ) >= CONST ) expected expression before  }  token
+IdNoDef	ID = ID ( ID , CONST ) + ID ( ID , CONST ) + ID ( ID , CONST ) ; ID  undeclared
+IdNoDef	if ( ID == CONST ) ID  undeclared
+IdNoDef	ID = ID ( ID ) ; ID  undeclared
+IdNoDef	if ( ID == CONST ) ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ ) ID  undeclared
+IdNoDef	ID = ID + ( ( ID - ( CONST * ID ) ) / CONST ) + CONST ; ID  undeclared
+IdNoDef	if ( ID < ID ) return CONST ; ID  undeclared
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) { ID  undeclared
+BoundNotMatch	} expected declaration or statement at end of input
+BoundLost	return ID ( ID , ID ) + ID ( ID - CONST * ID , ID + CONST ) expected  ;  before  }  token
+OPDataLost	printf ( STRING , * ID [ CONST ] + ) ; expected expression before  )  token
+BoundLost	int ID = ID - ID * CONST expected  ,  or  ;  before  if
+IdNoDef	for ( ID = CONST ; ID < CONST ; ID ++ ) ID  undeclared
+BoundLost	int ID [ ] = { CONST , CONST , CONST } expected  ,  or  ;  before  long
+IdWrongUsage	ID = long ID ( int ID ) ; expected expression before  long
+OPLost	ID CONST ; expected  ;  before numeric constant
+BoundLost	printf ( STRING , ID [ ID ] ) expected  ;  before  return
+KeyWordWrongUsage	if ( ID != CONST ) expected expression before  }  token
+OPWrongUsage	if ( ID = > ID ) expected expression before  >  token
+IdNoDef	for ( ID = CONST ; ID < ID + CONST ; ID ++ ) ID  undeclared
+IdNoDef	for ( ID = ID [ ID ] ; ID < ID ; ID ++ ) ID  undeclared
+IdNoDef	{ scanf ( STRING , & ID [ ID ] ) ; ID  undeclared
+IdNoDef	ID = CONST ; ID  undeclared
+IdNoDef	for ( int ID = CONST ; ID < ID [ ID ] ; ID ++ ) ID  undeclared
+IdNoDef	ID = CONST ; ID  undeclared
+OPWrongUsage	for ( ID = CONST ; ID <= ID ; ID ++ CONST ) expected  )  before numeric constant
+BoundNotMatch	} expected declaration or statement at end of input
+APIcallWrongUsage	printf ( STRING ID [ ID ] ) ; expected  )  before  ID
+IdNoDef	scanf ( STRING , & ID , & ID ) ; ID  undeclared
+IdNoDef	ID = * ( ID + ID ) ; ID  undeclared
+IdNoDef	ID += ( ID + CONST ) ; ID  undeclared
+BoundRedundant	int main ( ) ; expected identifier or  (  before  {  token
+IdNoDef	ID = ID ; ID  undeclared
+OPWrongUsage	for ( ID = CONST ; ID = < ID ; ID ++ ) expected expression before  <  token
+IdNoDef	int ID [ ID + CONST ] , ID [ ID + CONST ] ; ID  undeclared
+NotInclude	void ( ) int ID ( int * ID , int * ID ) expected identifier or  (  before  )  token
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+IdNoDef	{     ID [ ID ] = ID ; ID  undeclared
+BoundLost	ID = CONST expected  ;  before  while
+IdNoDef	ID [ ID ] = ID ; ID  undeclared
+BoundLost	ID += ID expected  ;  before  }  token
+BoundLost	ID += CONST ; printf ( STRING , ID ) expected  ;  before  }  token
+BoundLost	ID = ( int * ) malloc ( ( ID + CONST ) * sizeof ( int ) ) expected  ;  before  for
+IdNoDef	for ( ID = CONST ; ID < ID ; ID ++ ) ID  undeclared
