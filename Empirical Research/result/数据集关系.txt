@@ -1,0 +1,6 @@
+数据集关系
+Deepfix      Prutor收集    deepfix  6975  变异生成作为训练集和验证集 约 40w
+Tracer        Prutor收集    SL 23275 ML 17451  合计 40726 SL [TRAIN TEST]  ML[TEST]  16985??? Line Pair TRAIN:VALID:TEST = 7:1:2
+Tegcer       Prutor收集    SL 23275 中 属于错误集合基数大于10的集合的SL 15579    TRAIN:VALID:TEST = 7:1:2
+RLAssist     Prutor收集    deepfix  6975   变异生成作为训练集和验证集 约 40w                                                                      
+Macer        Prutor收集    Deepfix 6975 SL 23275 ML 17451                                   SL [17769 TRAIN 4578 TEST] ML [17451 TEST]
